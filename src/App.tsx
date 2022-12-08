@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom"
-import { Link } from "react-router-dom";
+import Nav from "./assets/js/Nav"
 import Home from "./assets/js/Home"
 import About from "./assets/js/About"
 import Gallery from "./assets/js/Gallery"
@@ -9,12 +9,8 @@ import Contact from "./assets/js/Contact"
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Link to="/">Home</Link>
-        <Link to="about">About</Link>
-        <Link to="gallery">Gallery</Link>
-        <Link to="packages">Packages</Link>
-        <Link to="contact">Contact</Link>
+      <Nav />
+      <main>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
@@ -22,7 +18,7 @@ function App() {
           <Route path="packages" element={<Packages />} />
           <Route path="contact" element={<Contact />} />
         </Routes>
-      </header> 
+      </main>
     </div>
   );
 }

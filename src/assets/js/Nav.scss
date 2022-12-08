@@ -1,0 +1,144 @@
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    img {
+        width: 136px;
+        height: auto;
+        position: absolute;
+        top: 26px;
+        left: 90px;
+    }
+    .menu-button {
+        position: absolute;
+        width: 42px;
+        height: 50px;
+        top: 30px;
+        left: 30px;
+        cursor: pointer;
+        background: transparent;
+        border: 0;
+        padding: 0;
+        margin: 0;
+        text-shadow: none;
+        outline: 0;
+        &:active {
+            outline: 0;
+        }
+        .burger-menu {
+            position: relative;
+            width: 43px;
+            height: 50px;
+            top: 0px;
+            left: 0px;
+            cursor: pointer;
+        }
+        .burger {
+            position: absolute;
+            background: white;
+            border: 1px solid black;
+            width: 43px;
+            height: 9px;
+            top: 50%;
+            right: 0px;
+            margin-top: -3px;
+            opacity: 1;
+        }
+        .burger::before {
+            position: absolute;
+            background: white;
+            border: 1px solid black;
+            width: 43px;
+            height: 9px;
+            left: -1px;
+            top: 15px;
+            content: "";
+            display: block;
+        }
+        .burger::after {
+            position: absolute;
+            background: white;
+            border: 1px solid black;
+            width: 43px;
+            left: -1px;
+            height: 9px;
+            bottom: 16px;
+            content: "";
+            display: block;
+        }
+        .burger::after,
+        .burger::before,
+        .burger {
+            transition: all .3s ease-in-out;
+            -webkit-transition: all .3s ease-in-out;
+        }
+        .burger-menu.show-cross {
+            position: fixed;
+            top: 30px;
+            left: 30px;
+        }
+        .show-cross .burger::after {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+            bottom: 4px;
+            background: black;
+        }
+        .show-cross .burger::before {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+            top: -5px;
+            background: black;
+        }
+        .show-cross .burger {
+            border: white;
+            background: white;
+        }
+        &:hover {
+            outline: 0;
+            opacity: 0.7;
+        }
+    }
+    #main-menu {
+        display: none;
+        position: relative;
+        width: 210px;
+        height: 100vh;
+        top: 0;
+        left: 0px;
+        background-color: white;
+        border-right: 1px solid black;
+        h3 {
+            padding: 120px 20px 20px 50px;
+            margin: 0;
+            //font-family: 'Architects Daughter', cursive, Arial;
+            font-size: 24px;
+            letter-spacing: 1px;
+            text-align: left;
+            border-bottom: 1px solid black;
+        }
+        a {
+            clear: both;
+            display: block;
+            text-align: left;
+            border-bottom: 1px solid black;
+            padding: 20px 20px 20px 50px;
+            display: block;
+            //font-family: 'Architects Daughter', cursive, Arial;
+            // font-size: 18px;
+            font-size: 15px;
+            letter-spacing: 1px;
+            text-decoration: none;
+            color: black;
+            &:hover {
+                background: blue;
+                color: grey;
+            }
+            &:focus,
+            &:active {
+                border-bottom: 1px solid black;
+            }
+        }
+    }
+}
+
+// burger
