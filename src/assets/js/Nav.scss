@@ -1,20 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;500;900&display=swap');
 header {
     position: absolute;
     top: 0;
     left: 0;
-    img {
-        width: 136px;
+    img.logo {
+        width: 110px;
         height: auto;
         position: absolute;
-        top: 26px;
-        left: 90px;
+        top: 8px;
+        left: 60px;
+        z-index: 0;
+        display: block;
+        @media (min-width: 660px) {
+            width: 136px;
+            top: 0px;
+            left: 56px;
+        }
+    }
+    // animation
+    @keyframes show-left {
+        0% {
+            transform: translate(-210px, 0);
+        }
+        100% {
+            transform: translate(0, 0);
+        }
+    }
+    @keyframes retract-left {
+        0% {
+            transform: translate(0, 0);
+        }
+        100% {
+            transform: translate(-210px, 0);
+        }
+    }
+    // toggleon to viewport
+    #main-menu.menu-on {
+        animation: show-left .3s forwards;
+        position: fixed;
+    }
+    #main-menu.menu-off {
+        animation: retract-left .3s forwards;
+        position: relative;
     }
     .menu-button {
+        top: 4px;
+        left: 10px;
         position: absolute;
         width: 42px;
         height: 50px;
-        top: 30px;
-        left: 30px;
         cursor: pointer;
         background: transparent;
         border: 0;
@@ -22,6 +56,10 @@ header {
         margin: 0;
         text-shadow: none;
         outline: 0;
+        @media (min-width: 660px) {
+            top: 30px;
+            left: 30px;
+        }
         &:active {
             outline: 0;
         }
@@ -73,9 +111,20 @@ header {
             -webkit-transition: all .3s ease-in-out;
         }
         .burger-menu.show-cross {
-            position: fixed;
-            top: 30px;
-            left: 30px;
+            position: relative;
+            top: 6px;
+            left: 0px;
+            @media (min-width: 660px) {
+                top: 6px;
+                left: 0px;
+            }
+            img.logo {
+                filter: invert(100%);
+                top: 2px;
+                @media (min-width: 660px) {
+                    top: -6px;
+                }
+            }
         }
         .show-cross .burger::after {
             transform: rotate(-45deg);
@@ -107,10 +156,13 @@ header {
         left: 0px;
         background-color: white;
         border-right: 1px solid black;
+        @media (min-width: 660px) {
+            width: 260px;
+        }
         h3 {
-            padding: 120px 20px 20px 50px;
+            padding: 108px 20px 20px 32px;
             margin: 0;
-            //font-family: 'Architects Daughter', cursive, Arial;
+            font-family: 'Kanit', Arial;
             font-size: 24px;
             letter-spacing: 1px;
             text-align: left;
@@ -121,9 +173,9 @@ header {
             display: block;
             text-align: left;
             border-bottom: 1px solid black;
-            padding: 20px 20px 20px 50px;
+            padding: 20px 20px 20px 32px;
             display: block;
-            //font-family: 'Architects Daughter', cursive, Arial;
+            font-family: 'Kanit', Arial;
             // font-size: 18px;
             font-size: 15px;
             letter-spacing: 1px;

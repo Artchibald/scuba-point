@@ -2,8 +2,7 @@ import React from 'react'
 
 import { Link } from "react-router-dom";
 import "./Nav.scss"
-import Logo from "./../img/scuba-point.svg";
-
+import LogoLight from "./../img/scuba-point.svg";
 function showMenu() {
   var toggleVariable: any = document.getElementById('main-menu');
   //if shown
@@ -30,19 +29,25 @@ function showMenu() {
   }
 }
 
+
+
+
+
 function Nav() {
   return (
     <>
       <header>
+
         <div id="main-menu">
           <h3>MENU</h3>
 
-          <Link to="about">About</Link>
-          <Link to="gallery">Gallery</Link>
-          <Link to="packages">Packages</Link>
-          <Link to="contact">Contact</Link>
+          <Link onClick={showMenu} to="about">About</Link>
+          <Link onClick={showMenu} to="gallery">Gallery</Link>
+          <Link onClick={showMenu} to="packages">Packages</Link>
+          <Link onClick={showMenu} to="contact">Contact</Link>
           {/* <Link to="/does-not-exist">Catch all route</Link> */}
         </div>
+
         <button
           aria-label="open menu"
           className="menu-button"
@@ -50,11 +55,12 @@ function Nav() {
         >
           <div id="burger-cross" className="burger-menu">
             <div className="burger"></div>
+            <Link to="/">
+              <img src={LogoLight} alt="Scuba Point Logo" className="logo" />
+            </Link>
           </div>
         </button>
-        <Link to="/">
-          <img src={Logo} alt="Scuba Point Logo" />
-        </Link>
+
 
       </header>
 
