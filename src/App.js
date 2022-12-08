@@ -1,10 +1,24 @@
+import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom"
+import { Link } from "react-router-dom";
 
+import Home from "./assets/js/Home"
+import About from "./assets/js/About"
+import Contact from "./assets/js/Contact"
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
+        </Routes>
+
+        <Link to="/">Home</Link>
+        <Link to="about">Click to view our about page</Link>
+        <Link to="contact">Click to view our contact page</Link>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
