@@ -17,8 +17,8 @@ function App() {
         </Routes>
 
         <Link to="/">Home</Link>
-        <Link to="about">Click to view our about page</Link>
-        <Link to="contact">Click to view our contact page</Link>
+        <Link to="about">About</Link>
+        <Link to="contact">Contact</Link>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
