@@ -3,7 +3,8 @@ import './Home.scss'
 function Home() {
  return (
   <div className='home'>
-   <h1>This is the home page</h1>
+   <div className='lava_cloud'></div>
+   <div className='lava'></div>
   </div>
  );
 }

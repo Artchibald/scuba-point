@@ -9,7 +9,6 @@ import Contact from "./assets/js/Contact"
 function App() {
   return (
     <div className="App">
-      <Nav />
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -19,6 +18,8 @@ function App() {
           <Route path="contact" element={<Contact />} />
         </Routes>
       </main>
+      <Nav />
+
     </div>
   );
 }
