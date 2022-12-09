@@ -37,6 +37,34 @@
             top: -.2%;
         }
     }
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+            /* Firefox 16+, IE 10+, Opera */
+        }
+        100% {
+            transform: rotate(360deg);
+            /* Firefox 16+, IE 10+, Opera */
+        }
+    }
+    @keyframes MoveFerry {
+        0% {
+            left: -20%;
+        }
+        100% {
+            left: 110%;
+        }
+    }
+    @keyframes MoveBoat {
+        0% {
+            transform: rotate(0deg);
+            top: 6.2%;
+        }
+        50% {
+            top: 6.5%;
+            transform: rotate(2deg);
+        }
+    }
     .lava {
         background: url('./../img/lava.png');
         background-size: 100% auto;
@@ -46,5 +74,51 @@
         top: -0.3%;
         height: 5%;
         width: 13%;
+    }
+    .sun_fire {
+        background: url('./../img/sun_fire.png');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 82.2%;
+        top: 1.9%;
+        height: 8%;
+        width: 12%;
+        transform-origin: 50% 50%;
+        animation: spin 4s linear infinite;
+        /* Chrome, Firefox 16+, IE 10+, Opera */
+    }
+    .sun_face {
+        background: url('./../img/sun_face.png');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 84.9%;
+        top: 3.9%;
+        height: 8%;
+        width: 6.5%;
+    }
+    .ferry {
+        background: url('./../img/ferry.png');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 4.9%;
+        top: 8.6%;
+        height: 4%;
+        width: 19.5%;
+        animation: MoveFerry 88s linear infinite;
+    }
+    .boat {
+        background: url('./../img/boat.png');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 14.9%;
+        top: 6.2%;
+        height: 33%;
+        width: 49.5%;
+        transform-origin: 50% 50%;
+        animation: MoveBoat 6s linear infinite;
     }
 }

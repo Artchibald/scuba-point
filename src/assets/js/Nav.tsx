@@ -40,11 +40,11 @@ function Nav() {
 
         <div id="main-menu">
           <h3>MENU</h3>
-
-          <Link onClick={showMenu} to="about">About</Link>
-          <Link onClick={showMenu} to="gallery">Gallery</Link>
-          <Link onClick={showMenu} to="packages">Packages</Link>
-          <Link onClick={showMenu} to="contact">Contact</Link>
+          <Link onClick={showMenu} to="/">HOME</Link>
+          <Link onClick={showMenu} to="about">ABOUT</Link>
+          <Link onClick={showMenu} to="gallery">GALLERY</Link>
+          <Link onClick={showMenu} to="packages">PACKAGES</Link>
+          <Link onClick={showMenu} to="contact">CONTACT</Link>
           {/* <Link to="/does-not-exist">Catch all route</Link> */}
         </div>
 
