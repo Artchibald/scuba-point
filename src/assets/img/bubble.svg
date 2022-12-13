@@ -1,0 +1,25 @@
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="8.248px" height="8.249px" viewBox="0 0 8.248 8.249" enable-background="new 0 0 8.248 8.249" xml:space="preserve">
+<g>
+	
+		<radialGradient id="SVGID_1_" cx="160.124" cy="-239.4272" r="4.1243" gradientTransform="matrix(1 0 0 -1 -156 -235.3027)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0.0013" style="stop-color:#69C0D5"/>
+		<stop  offset="1" style="stop-color:#53B4CB"/>
+	</radialGradient>
+	<circle fill="url(#SVGID_1_)" cx="4.123" cy="4.125" r="4.125"/>
+	
+		<radialGradient id="SVGID_2_" cx="158.2988" cy="-239.1436" r="2.0361" gradientTransform="matrix(1 0 0 -1 -156 -235.3027)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0.0013" style="stop-color:#A5D7E0"/>
+		<stop  offset="1" style="stop-color:#82CBDD"/>
+	</radialGradient>
+	<path fill="url(#SVGID_2_)" d="M2.57,3.369C2.282,4.747,3.296,6.557,2.288,6.346C1.276,6.13,0.694,4.841,0.984,3.458
+		c0.292-1.376,1.346-2.321,2.354-2.11C4.352,1.559,2.863,1.988,2.57,3.369z"/>
+	
+		<radialGradient id="SVGID_3_" cx="669.1641" cy="368.3984" r="1.4085" gradientTransform="matrix(-0.9989 0.0467 0.0467 0.9989 657.6605 -394.9059)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0.0013" style="stop-color:#A5D7E0"/>
+		<stop  offset="1" style="stop-color:#82CBDD"/>
+	</radialGradient>
+	<path fill="url(#SVGID_3_)" d="M6.241,4.679c0.154-0.963-0.606-2.185,0.099-2.07c0.708,0.117,1.153,0.989,0.994,1.955
+		C7.179,5.525,6.48,6.214,5.774,6.1C5.064,5.984,6.079,5.643,6.241,4.679z"/>
+</g>
+</svg>
