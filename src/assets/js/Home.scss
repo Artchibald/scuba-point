@@ -1,3 +1,64 @@
+@keyframes MoveUpDown {
+    0%,
+    100% {
+        top: -0.5%;
+    }
+    50% {
+        top: -.2%;
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+        /* Firefox 16+, IE 10+, Opera */
+    }
+    100% {
+        transform: rotate(360deg);
+        /* Firefox 16+, IE 10+, Opera */
+    }
+}
+
+@keyframes MoveFerry {
+    0% {
+        left: -20%;
+    }
+    100% {
+        left: 110%;
+    }
+}
+
+@keyframes MoveBoat {
+    0% {
+        transform: rotate(0deg);
+        top: 6.2%;
+    }
+    50% {
+        top: 6.5%;
+        transform: rotate(2deg);
+    }
+}
+
+@keyframes Waving {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(5deg);
+    }
+}
+
+.lava {
+    background: url('./../img/lava.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 64.2%;
+    top: -0.3%;
+    height: 5%;
+    width: 13%;
+}
+
 .home {
     background-image: url('./../img/bg.jpg');
     position: relative;
@@ -28,53 +89,6 @@
         left: 0;
         bottom: 0;
     }
-    @keyframes MoveUpDown {
-        0%,
-        100% {
-            top: -0.5%;
-        }
-        50% {
-            top: -.2%;
-        }
-    }
-    @keyframes spin {
-        0% {
-            transform: rotate(0deg);
-            /* Firefox 16+, IE 10+, Opera */
-        }
-        100% {
-            transform: rotate(360deg);
-            /* Firefox 16+, IE 10+, Opera */
-        }
-    }
-    @keyframes MoveFerry {
-        0% {
-            left: -20%;
-        }
-        100% {
-            left: 110%;
-        }
-    }
-    @keyframes MoveBoat {
-        0% {
-            transform: rotate(0deg);
-            top: 6.2%;
-        }
-        50% {
-            top: 6.5%;
-            transform: rotate(2deg);
-        }
-    }
-    .lava {
-        background: url('./../img/lava.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
-        left: 64.2%;
-        top: -0.3%;
-        height: 5%;
-        width: 13%;
-    }
     .sun_fire {
         background: url('./../img/sun_fire.png');
         background-size: 100% auto;
@@ -104,7 +118,7 @@
         background-repeat: no-repeat;
         position: absolute;
         left: 4.9%;
-        top: 8.6%;
+        top: 8.7%;
         height: 4%;
         width: 19.5%;
         animation: MoveFerry 88s linear infinite;
@@ -119,6 +133,42 @@
         height: 33%;
         width: 49.5%;
         transform-origin: 50% 50%;
-        animation: MoveBoat 6s linear infinite;
+        animation: MoveBoat 4s linear infinite;
+        .teacher_arm {
+            background: url('./../img/teacher_arm.png');
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+            position: absolute;
+            left: 53.15%;
+            top: 7.56%;
+            height: 10%;
+            width: 3.5%;
+            transform-origin: 0% 100%;
+            animation: Waving 1s linear infinite;
+        }
+        .gonza_arm {
+            background: url('./../img/gonza_arm.png');
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+            position: absolute;
+            left: 80.62%;
+            top: 3.56%;
+            height: 12%;
+            width: 6.5%;
+            transform-origin: 0% 100%;
+            animation: Waving 1s linear infinite;
+        }
+    }
+    .diver_arm {
+        background: url('./../img/diver_arm.png');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 5.1%;
+        top: 12.56%;
+        height: 5%;
+        width: 3.5%;
+        transform-origin: 0% 100%;
+        animation: Waving 1s linear infinite;
     }
 }

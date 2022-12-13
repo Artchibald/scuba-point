@@ -8,7 +8,11 @@ function Home() {
    <div className='sun_fire'></div>
    <div className='sun_face'></div>
    <div className='ferry'></div>
-   <div className='boat'></div>
+   <div className='boat'>
+    <div className='teacher_arm'></div>
+    <div className='gonza_arm'></div>
+   </div>
+   <div className='diver_arm'></div>
   </div>
  );
 }
