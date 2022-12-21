@@ -13,6 +13,10 @@ function Home() {
     <div className='gonza_arm'></div>
    </div>
    <div className='diver_arm'></div>
+   <div className="jellyfish"></div>
+   <div className="zebra_fish"></div>
+   <div className="gold_fish"></div>
+   <div className="blue_fish"></div>
    <div className="App_bubbles">
     <div className="bubble x1"></div>
     <div className="bubble x2"></div>

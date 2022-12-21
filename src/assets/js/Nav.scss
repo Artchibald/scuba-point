@@ -4,20 +4,20 @@ header {
     top: 0;
     left: 0;
     img.logo {
-        width: 110px;
+        width: 96px;
         height: auto;
         position: absolute;
-        top: 8px;
-        left: 60px;
+        top: 9px;
+        left: 58px;
         z-index: 0;
         display: block;
         @media (min-width: 660px) {
-            width: 136px;
-            top: 0px;
-            left: 56px;
+            width: 130px;
+            top: 25px;
+            left: 78px;
         }
     }
-    // animation
+    // animation 
     @keyframes show-left {
         0% {
             transform: translate(-210px, 0);
@@ -163,7 +163,7 @@ header {
             padding: 108px 20px 20px 32px;
             margin: 0;
             font-family: 'Kanit', Arial;
-            font-weight: 600;
+            font-weight: 500;
             font-size: 24px;
             letter-spacing: 1px;
             text-align: left;
@@ -184,8 +184,8 @@ header {
             text-decoration: none;
             color: black;
             &:hover {
-                background: blue;
-                color: grey;
+                background: black;
+                color: white;
             }
             &:focus,
             &:active {

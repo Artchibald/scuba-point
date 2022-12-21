@@ -55,12 +55,12 @@ function Nav() {
         >
           <div id="burger-cross" className="burger-menu">
             <div className="burger"></div>
-            <Link to="/">
-              <img src={LogoLight} alt="Scuba Point Logo" className="logo" />
-            </Link>
+
           </div>
         </button>
-
+        <Link to="/">
+          <img src={LogoLight} alt="Scuba Point Logo" className="logo" />
+        </Link>
 
       </header>
 

@@ -16,6 +16,12 @@ function App() {
           <Route path="gallery" element={<Gallery />} />
           <Route path="packages" element={<Packages />} />
           <Route path="contact" element={<Contact />} />
+
+          {/* <Route path="https://archibaldbutler.com/projects/scuba-point/" element={<Home />} />
+          <Route path="https://archibaldbutler.com/projects/scuba-point/about" element={<About />} />
+          <Route path="https://archibaldbutler.com/projects/scuba-point/gallery" element={<Gallery />} />
+          <Route path="https://archibaldbutler.com/projects/scuba-point/packages" element={<Packages />} />
+          <Route path="https://archibaldbutler.com/projects/scuba-point/contact" element={<Contact />} /> */}
         </Routes>
       </main>
       <Nav />
