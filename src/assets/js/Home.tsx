@@ -17,6 +17,9 @@ function Home() {
    <div className="zebra_fish"></div>
    <div className="gold_fish"></div>
    <div className="blue_fish"></div>
+   <div className="diver"></div>
+   <div className="little_fish"></div>
+   <div className="prawn"></div>
    <div className="App_bubbles">
     <div className="bubble x1"></div>
     <div className="bubble x2"></div>

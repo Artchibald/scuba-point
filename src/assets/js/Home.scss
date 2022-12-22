@@ -85,6 +85,36 @@
     }
 }
 
+@keyframes diver {
+    0% {
+        left: 110%;
+    }
+    100% {
+        left: -11%;
+        top: 46%
+    }
+}
+
+@keyframes little_fish {
+    0% {
+        left: -6%;
+    }
+    100% {
+        left: 103%;
+        top: 32%
+    }
+}
+
+@keyframes prawn {
+    0% {
+        left: 110%;
+    }
+    100% {
+        left: -11%;
+        top: 26%
+    }
+}
+
 .lava {
     background: url('./../img/lava.png');
     background-size: 100% auto;
@@ -250,6 +280,39 @@
         height: 3%;
         width: 10%;
         animation: blue_fish 40s linear infinite;
+    }
+    .diver {
+        background: url('./../img/diver.png');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 110%;
+        top: 21.7%;
+        height: 17%;
+        width: 24%;
+        animation: diver 40s linear infinite;
+    }
+    .little_fish {
+        background: url('./../img/little_fish.png');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: -3%;
+        top: 22.7%;
+        height: 1.9%;
+        width: 3%;
+        animation: little_fish 40s linear infinite;
+    }
+    .prawn {
+        background: url('./../img/prawn.png');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 98.9%;
+        top: 24.7%;
+        height: 1.6%;
+        width: 2%;
+        animation: prawn 40s linear infinite;
     }
     .App_bubbles {
         bottom: 0;
