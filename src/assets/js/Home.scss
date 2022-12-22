@@ -55,6 +55,36 @@
     }
 }
 
+@keyframes zebra_fish {
+    0% {
+        left: 105%;
+    }
+    100% {
+        left: -8%;
+        top: 33%
+    }
+}
+
+@keyframes gold_fish {
+    0% {
+        left: 106%;
+    }
+    100% {
+        left: -10%;
+        top: 55%
+    }
+}
+
+@keyframes blue_fish {
+    0% {
+        left: 110%;
+    }
+    100% {
+        left: -11%;
+        top: 66%
+    }
+}
+
 .lava {
     background: url('./../img/lava.png');
     background-size: 100% auto;
@@ -186,7 +216,7 @@
         top: 21.7%;
         height: 33%;
         width: 23%;
-        animation: Jellyfish 30s linear infinite;
+        animation: Jellyfish 33s linear infinite;
     }
     .zebra_fish {
         background: url('./../img/zebra_fish.png');
@@ -194,21 +224,21 @@
         background-repeat: no-repeat;
         position: absolute;
         left: 1.9%;
-        top: 21.7%;
-        height: 33%;
-        width: 23%;
-        animation: Jellyfish 30s linear infinite;
+        top: 27.7%;
+        height: 4%;
+        width: 7%;
+        animation: zebra_fish 20s linear infinite;
     }
     .gold_fish {
         background: url('./../img/gold_fish.png');
         background-size: 100% auto;
         background-repeat: no-repeat;
         position: absolute;
-        left: 31.9%;
-        top: 21.7%;
-        height: 33%;
-        width: 23%;
-        animation: Jellyfish 30s linear infinite;
+        left: 21.9%;
+        top: 22.7%;
+        height: 3%;
+        width: 10%;
+        animation: gold_fish 30s linear infinite;
     }
     .blue_fish {
         background: url('./../img/blue_fish.png');
@@ -216,10 +246,10 @@
         background-repeat: no-repeat;
         position: absolute;
         left: 21.9%;
-        top: 26.7%;
-        height: 33%;
-        width: 23%;
-        animation: Jellyfish 30s linear infinite;
+        top: 35.7%;
+        height: 3%;
+        width: 10%;
+        animation: blue_fish 40s linear infinite;
     }
     .App_bubbles {
         bottom: 0;
