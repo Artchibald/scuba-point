@@ -91,7 +91,7 @@
     }
     100% {
         left: -11%;
-        top: 46%
+        top: 40%
     }
 }
 
@@ -112,6 +112,66 @@
     100% {
         left: -11%;
         top: 26%
+    }
+}
+
+@keyframes barra1 {
+    0% {
+        left: -12%;
+    }
+    100% {
+        left: 112%;
+        top: 25%
+    }
+}
+
+@keyframes barra2 {
+    0% {
+        left: -12%;
+    }
+    100% {
+        left: 112%;
+        top: 30%
+    }
+}
+
+@keyframes barra3 {
+    0% {
+        left: -12%;
+    }
+    100% {
+        left: 112%;
+        top: 35%
+    }
+}
+
+@keyframes barra4 {
+    0% {
+        left: -12%;
+    }
+    100% {
+        left: 112%;
+        top: 40%
+    }
+}
+
+@keyframes barra5 {
+    0% {
+        left: -12%;
+    }
+    100% {
+        left: 112%;
+        top: 45%
+    }
+}
+
+@keyframes barra6 {
+    0% {
+        left: -12%;
+    }
+    100% {
+        left: 112%;
+        top: 50%
     }
 }
 
@@ -313,6 +373,72 @@
         height: 1.6%;
         width: 2%;
         animation: prawn 40s linear infinite;
+    }
+    .barra1 {
+        background: url('./../img/barra1.png');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: -12%;
+        top: 35%;
+        height: 3.6%;
+        width: 12%;
+        animation: barra1 8s linear infinite;
+    }
+    .barra2 {
+        background: url('./../img/barra2.png');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: -12%;
+        top: 40%;
+        height: 3.6%;
+        width: 12%;
+        animation: barra2 12s linear infinite;
+    }
+    .barra3 {
+        background: url('./../img/barra3.png');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: -12%;
+        top: 45%;
+        height: 3.9%;
+        width: 12%;
+        animation: barra3 6s linear infinite;
+    }
+    .barra4 {
+        background: url('./../img/barra4.png');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: -12%;
+        top: 50%;
+        height: 3.6%;
+        width: 12%;
+        animation: barra4 11s linear infinite;
+    }
+    .barra5 {
+        background: url('./../img/barra5.png');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: -12%;
+        top: 55%;
+        height: 3.6%;
+        width: 12%;
+        animation: barra5 9s linear infinite;
+    }
+    .barra6 {
+        background: url('./../img/barra6.png');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: -12%;
+        top: 60%;
+        height: 3.6%;
+        width: 12%;
+        animation: barra6 5s linear infinite;
     }
     .App_bubbles {
         bottom: 0;
