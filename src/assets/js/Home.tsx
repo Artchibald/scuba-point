@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from "react-router-dom";
 import './Home.scss'
 function Home() {
  return (
@@ -28,6 +29,7 @@ function Home() {
     <div className="App_sparkle s9"> </div>
     <div className="App_sparkle s10"> </div>
    </div>
+
    <div className="whale"></div>
    <div className="jellyfish"></div>
    <div className="ray"></div>
@@ -52,6 +54,7 @@ function Home() {
    <div className="bask"></div>
    <div className="monkey_arm_1"></div>
    <div className="monkey_arm_2"></div>
+
    <div className="App_bubbles">
     <div className="bubble x1"></div>
     <div className="bubble x2"></div>
@@ -94,6 +97,7 @@ function Home() {
     <div className="bubble x39"></div>
     <div className="bubble x40"></div>
    </div>
+   <Link className="blink" to="about"></Link>
   </div>
  );
 }

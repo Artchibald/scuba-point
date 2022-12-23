@@ -235,6 +235,15 @@
     }
 }
 
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 @keyframes dolphin_contain {
     0% {
         left: 128%;
@@ -635,6 +644,21 @@
         width: 10%;
         transform-origin: 100% 0%;
         animation: monkey_arm_2 .4s alternate infinite;
+    }
+    .blink {
+        cursor: pointer;
+        background: url('./../img/blink.png');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 16.8%;
+        top: 72%;
+        height: 18%;
+        width: 23.5%;
+        animation: blink .5s alternate infinite;
+        &:hover {
+            filter: invert(100%);
+        }
     }
     .eel {
         background: url('./../img/eel.png');
