@@ -9,7 +9,6 @@ function Home() {
    initial={{ width: 0 }}
    animate={{ width: "100%" }}
    exit={{ transform: "translate(100%, 0)", transition: { duration: 0.5 } }}
-
   >
    <div className='lava_cloud'></div>
    <div className='lava'></div>
@@ -36,12 +35,9 @@ function Home() {
     <div className="App_sparkle s9"> </div>
     <div className="App_sparkle s10"> </div>
    </div>
-
    <div className="whale"></div>
    <div className="jellyfish"></div>
-
    <div className="diver"></div>
-
    <div className="App_bubbles">
     <div className="bubble x1"></div>
     <div className="bubble x2"></div>
@@ -88,7 +84,6 @@ function Home() {
    <div className="eel">
     <div className="eel_mouth"></div>
    </div>
-
    <div className="cliff_left"></div>
    <div className="ray"></div>
    <div className="turtle"></div>
@@ -106,7 +101,6 @@ function Home() {
    <div className="bask"></div>
    <div className="monkey_arm_1"></div>
    <div className="monkey_arm_2"></div>
-
    <Link className="blink" to="about"></Link>
   </motion.div>
  );

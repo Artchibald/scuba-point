@@ -1,0 +1,336 @@
+@keyframes MoveUpDown {
+    0%,
+    100% {
+        top: -0.5%;
+    }
+    50% {
+        top: -.2%;
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes MoveFerry {
+    0% {
+        left: -20%;
+    }
+    100% {
+        left: 110%;
+    }
+}
+
+@keyframes MoveBoat {
+    0% {
+        transform: rotate(0deg);
+        top: 6.2%;
+    }
+    50% {
+        top: 6.5%;
+        transform: rotate(2deg);
+    }
+}
+
+@keyframes Waving {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(5deg);
+    }
+}
+
+@keyframes Jellyfish {
+    0% {
+        top: 21.7%;
+    }
+    50% {
+        top: 30%;
+    }
+}
+
+@keyframes zebra_fish {
+    0% {
+        left: 105%;
+    }
+    100% {
+        left: -8%;
+        top: 27%
+    }
+}
+
+@keyframes gold_fish {
+    0% {
+        left: 106%;
+    }
+    100% {
+        left: -10%;
+        top: 55%
+    }
+}
+
+@keyframes blue_fish {
+    0% {
+        left: 110%;
+    }
+    100% {
+        left: -11%;
+        top: 66%
+    }
+}
+
+@keyframes diver {
+    0% {
+        left: 110%;
+    }
+    100% {
+        left: -11%;
+        top: 40%
+    }
+}
+
+@keyframes little_fish {
+    0% {
+        left: -6%;
+    }
+    100% {
+        left: 103%;
+        top: 32%
+    }
+}
+
+@keyframes prawn {
+    0% {
+        left: 110%;
+    }
+    100% {
+        left: -11%;
+        top: 26%
+    }
+}
+
+@keyframes barra1 {
+    0% {
+        left: -12%;
+    }
+    100% {
+        left: 112%;
+        top: 25%
+    }
+}
+
+@keyframes barra2 {
+    0% {
+        left: -12%;
+    }
+    100% {
+        left: 112%;
+        top: 30%
+    }
+}
+
+@keyframes barra3 {
+    0% {
+        left: -12%;
+    }
+    100% {
+        left: 112%;
+        top: 35%
+    }
+}
+
+@keyframes barra4 {
+    0% {
+        left: -12%;
+    }
+    100% {
+        left: 112%;
+        top: 40%
+    }
+}
+
+@keyframes barra5 {
+    0% {
+        left: -12%;
+    }
+    100% {
+        left: 112%;
+        top: 45%
+    }
+}
+
+@keyframes barra6 {
+    0% {
+        left: -12%;
+    }
+    100% {
+        left: 112%;
+        top: 50%
+    }
+}
+
+@keyframes turtle {
+    0% {
+        left: -18%;
+    }
+    100% {
+        left: 112%;
+        top: 17%
+    }
+}
+
+@keyframes ray {
+    0% {
+        left: 128%;
+    }
+    100% {
+        left: -20%;
+        top: 65%
+    }
+}
+
+@keyframes whale {
+    0% {
+        left: 128%;
+    }
+    100% {
+        left: -50%;
+        top: 49%
+    }
+}
+
+@keyframes bask {
+    0% {
+        left: 128%;
+    }
+    100% {
+        left: -20%;
+        top: 46%
+    }
+}
+
+@keyframes eel {
+    0% {
+        left: 3%;
+        transform: rotate(0deg);
+    }
+    100% {
+        left: 1%;
+        transform: rotate(5deg);
+    }
+}
+
+@keyframes eel_mouth {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(9deg);
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes dolphin_contain {
+    0% {
+        left: 128%;
+    }
+    100% {
+        left: -20%;
+        top: 36%
+    }
+}
+
+@keyframes dolphin {
+    from {
+        background-position: 0 0%;
+    }
+    to {
+        background-position: 0 136%;
+    }
+}
+
+@keyframes monkey_arm_1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(7deg);
+    }
+}
+
+@keyframes monkey_arm_2 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(5deg);
+    }
+}
+
+@keyframes blink-animation {
+    from {
+        visibility: hidden;
+    }
+    13% {
+        visibility: hidden;
+    }
+    15% {
+        visibility: visible;
+    }
+    16% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    51% {
+        visibility: visible;
+    }
+    52% {
+        visibility: hidden;
+    }
+    85% {
+        visibility: hidden;
+    }
+    86% {
+        visibility: visible;
+    }
+    87% {
+        visibility: hidden;
+    }
+    to {
+        visibility: hidden;
+    }
+}
+
+@keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@keyframes sideWays {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: 50px;
+    }
+}

@@ -1,325 +1,24 @@
-@keyframes MoveUpDown {
-    0%,
-    100% {
-        top: -0.5%;
-    }
-    50% {
-        top: -.2%;
-    }
-}
-
-@keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes MoveFerry {
-    0% {
-        left: -20%;
-    }
-    100% {
-        left: 110%;
-    }
-}
-
-@keyframes MoveBoat {
-    0% {
-        transform: rotate(0deg);
-        top: 6.2%;
-    }
-    50% {
-        top: 6.5%;
-        transform: rotate(2deg);
-    }
-}
-
-@keyframes Waving {
-    0% {
-        transform: rotate(0deg);
-    }
-    50% {
-        transform: rotate(5deg);
-    }
-}
-
-@keyframes Jellyfish {
-    0% {
-        top: 21.7%;
-    }
-    50% {
-        top: 30%;
-    }
-}
-
-@keyframes zebra_fish {
-    0% {
-        left: 105%;
-    }
-    100% {
-        left: -8%;
-        top: 27%
-    }
-}
-
-@keyframes gold_fish {
-    0% {
-        left: 106%;
-    }
-    100% {
-        left: -10%;
-        top: 55%
-    }
-}
-
-@keyframes blue_fish {
-    0% {
-        left: 110%;
-    }
-    100% {
-        left: -11%;
-        top: 66%
-    }
-}
-
-@keyframes diver {
-    0% {
-        left: 110%;
-    }
-    100% {
-        left: -11%;
-        top: 40%
-    }
-}
-
-@keyframes little_fish {
-    0% {
-        left: -6%;
-    }
-    100% {
-        left: 103%;
-        top: 32%
-    }
-}
-
-@keyframes prawn {
-    0% {
-        left: 110%;
-    }
-    100% {
-        left: -11%;
-        top: 26%
-    }
-}
-
-@keyframes barra1 {
-    0% {
-        left: -12%;
-    }
-    100% {
-        left: 112%;
-        top: 25%
-    }
-}
-
-@keyframes barra2 {
-    0% {
-        left: -12%;
-    }
-    100% {
-        left: 112%;
-        top: 30%
-    }
-}
-
-@keyframes barra3 {
-    0% {
-        left: -12%;
-    }
-    100% {
-        left: 112%;
-        top: 35%
-    }
-}
-
-@keyframes barra4 {
-    0% {
-        left: -12%;
-    }
-    100% {
-        left: 112%;
-        top: 40%
-    }
-}
-
-@keyframes barra5 {
-    0% {
-        left: -12%;
-    }
-    100% {
-        left: 112%;
-        top: 45%
-    }
-}
-
-@keyframes barra6 {
-    0% {
-        left: -12%;
-    }
-    100% {
-        left: 112%;
-        top: 50%
-    }
-}
-
-@keyframes turtle {
-    0% {
-        left: -18%;
-    }
-    100% {
-        left: 112%;
-        top: 17%
-    }
-}
-
-@keyframes ray {
-    0% {
-        left: 128%;
-    }
-    100% {
-        left: -20%;
-        top: 65%
-    }
-}
-
-@keyframes whale {
-    0% {
-        left: 128%;
-    }
-    100% {
-        left: -50%;
-        top: 49%
-    }
-}
-
-@keyframes bask {
-    0% {
-        left: 128%;
-    }
-    100% {
-        left: -20%;
-        top: 46%
-    }
-}
-
-@keyframes eel {
-    0% {
-        left: 3%;
-        transform: rotate(0deg);
-    }
-    100% {
-        left: 1%;
-        transform: rotate(5deg);
-    }
-}
-
-@keyframes eel_mouth {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(9deg);
-    }
-}
-
-@keyframes blink {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes dolphin_contain {
-    0% {
-        left: 128%;
-    }
-    100% {
-        left: -20%;
-        top: 36%
-    }
-}
-
-@keyframes dolphin {
-    from {
-        background-position: 0 0%;
-    }
-    to {
-        background-position: 0 136%;
-    }
-}
-
-@keyframes monkey_arm_1 {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(7deg);
-    }
-}
-
-@keyframes monkey_arm_2 {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(5deg);
-    }
-}
-
-.lava {
-    background: url('./../img/lava.png');
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    position: absolute;
-    left: 64.2%;
-    top: -0.3%;
-    height: 5%;
-    width: 13%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-
+@import './../css/includes.scss';
+@import './../css/animations.scss';
 .home {
-    background-image: url('./../img/bg.jpg');
-    position: relative;
-    display: block;
-    overflow: hidden;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-position: center top;
-    width: 100%;
-    height: 0;
-    padding-top: 161%;
-    //max-width: 1920px;
-    max-height: 3200px;
+    @include home;
+    .lava {
+        background: url('./../img/lava.png');
+        left: 64.2%;
+        top: -0.3%;
+        height: 5%;
+        width: 13%;
+        @include animated_div_duplicate_properties;
+    }
     .lava_cloud {
         background: url('./../img/lava_cloud.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: 29%;
         top: 0;
         height: 5%;
         width: 71%;
         padding-top: 0%;
-        animation: MoveUpDown 2s linear infinite;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+        animation: MoveUpDown 1.2s linear infinite;
+        @include animated_div_duplicate_properties;
     }
     .object {
         position: absolute;
@@ -328,445 +27,317 @@
     }
     .sun_fire {
         background: url('./../img/sun_fire.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: 82.2%;
         top: 1.9%;
         height: 8%;
         width: 12%;
         transform-origin: 50% 50%;
         animation: spin 4s linear infinite;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+        @include animated_div_duplicate_properties;
     }
     .sun_face {
         background: url('./../img/sun_face.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: 84.9%;
         top: 3.9%;
         height: 8%;
         width: 6.5%;
+        @include animated_div_duplicate_properties;
     }
     .ferry {
         background: url('./../img/ferry.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: 4.9%;
         top: 8.7%;
         height: 4%;
         width: 19.5%;
         animation: MoveFerry 88s linear infinite;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+        @include animated_div_duplicate_properties;
     }
     .boat {
         background: url('./../img/boat.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: 14.9%;
         top: 6.2%;
         height: 33%;
         width: 49.5%;
         transform-origin: 50% 50%;
         animation: MoveBoat 2s linear infinite;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+        @include animated_div_duplicate_properties;
         .teacher_arm {
             background: url('./../img/teacher_arm.png');
-            background-size: 100% auto;
-            background-repeat: no-repeat;
-            position: absolute;
             left: 53.15%;
             top: 7.56%;
             height: 10%;
             width: 3.5%;
             transform-origin: 0% 100%;
             animation: Waving .5s linear infinite;
-            -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
+            @include animated_div_duplicate_properties;
         }
         .gonza_arm {
             background: url('./../img/gonza_arm.png');
-            background-size: 100% auto;
-            background-repeat: no-repeat;
-            position: absolute;
             left: 80.62%;
             top: 3.56%;
             height: 12%;
             width: 6.5%;
             transform-origin: 0% 100%;
             animation: Waving .7s linear infinite;
-            -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
+            @include animated_div_duplicate_properties;
         }
     }
     .diver_arm {
         background: url('./../img/diver_arm.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: 4.95%;
         top: 12.56%;
         height: 5%;
         width: 3.5%;
         transform-origin: 0% 100%;
         animation: Waving 1s linear infinite;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+        @include animated_div_duplicate_properties;
     }
     .jellyfish {
         background: url('./../img/jellyfish.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: 37%;
         top: 21.7%;
         height: 33%;
         width: 23%;
         animation: Jellyfish 33s linear infinite;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+        @include animated_div_duplicate_properties;
     }
     .zebra_fish {
         background: url('./../img/zebra_fish.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: 1.9%;
         top: 27.7%;
         height: 4%;
         width: 7%;
         animation: zebra_fish 20s linear infinite;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+        @include animated_div_duplicate_properties;
     }
     .gold_fish {
         background: url('./../img/gold_fish.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: 21.9%;
         top: 22.7%;
         height: 3%;
         width: 10%;
         animation: gold_fish 30s linear infinite;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+        @include animated_div_duplicate_properties;
     }
     .blue_fish {
         background: url('./../img/blue_fish.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: 21.9%;
         top: 35.7%;
         height: 3%;
         width: 10%;
         animation: blue_fish 40s linear infinite;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+        @include animated_div_duplicate_properties;
     }
     .diver {
         background: url('./../img/diver.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: 110%;
         top: 21.7%;
         height: 17%;
         width: 24%;
         animation: diver 34s linear infinite;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+        @include animated_div_duplicate_properties;
     }
     .little_fish {
         background: url('./../img/little_fish.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: -3%;
         top: 22.7%;
         height: 1.9%;
         width: 3%;
         animation: little_fish 40s linear infinite;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+        @include animated_div_duplicate_properties;
     }
     .prawn {
         background: url('./../img/prawn.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: 98.9%;
         top: 24.7%;
         height: 1.6%;
         width: 2%;
         animation: prawn 40s linear infinite;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+        @include animated_div_duplicate_properties;
     }
     .barra1 {
         background: url('./../img/barra1.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: -12%;
         top: 35%;
         height: 3.6%;
         width: 12%;
         animation: barra1 8s linear infinite;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+        @include animated_div_duplicate_properties;
     }
     .barra2 {
         background: url('./../img/barra2.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: -12%;
         top: 40%;
         height: 3.6%;
         width: 12%;
         animation: barra2 12s linear infinite;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+        @include animated_div_duplicate_properties;
     }
     .barra3 {
         background: url('./../img/barra3.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: -12%;
         top: 45%;
         height: 3.9%;
         width: 12%;
         animation: barra3 6s linear infinite;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+        @include animated_div_duplicate_properties;
     }
     .barra4 {
         background: url('./../img/barra4.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: -12%;
         top: 50%;
         height: 3.6%;
         width: 12%;
         animation: barra4 11s linear infinite;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+        @include animated_div_duplicate_properties;
     }
     .barra5 {
         background: url('./../img/barra5.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: -12%;
         top: 55%;
         height: 3.6%;
         width: 12%;
         animation: barra5 9s linear infinite;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+        @include animated_div_duplicate_properties;
     }
     .barra5 {
         background: url('./../img/barra5.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: -12%;
         top: 55%;
         height: 3.6%;
         width: 12%;
         animation: barra5 9s linear infinite;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+        @include animated_div_duplicate_properties;
     }
     .barra6 {
         background: url('./../img/barra6.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: -12%;
         top: 60%;
         height: 3.6%;
         width: 12%;
         animation: barra6 5s linear infinite;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+        @include animated_div_duplicate_properties;
     }
     .turtle {
         background: url('./../img/turtle.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: -24%;
         top: 37%;
         height: 11.6%;
         width: 23%;
         animation: turtle 55s linear infinite;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+        @include animated_div_duplicate_properties;
     }
     .ray {
         background: url('./../img/ray.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: 124%;
         top: 37%;
         height: 14.6%;
         width: 24%;
         animation: ray 88s linear infinite;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+        @include animated_div_duplicate_properties;
     }
     .whale {
         background: url('./../img/whale.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: 154%;
         top: 50%;
         height: 14%;
         width: 72%;
         animation: whale 79s linear infinite;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+        @include animated_div_duplicate_properties;
     }
     .cliff_right {
         background: url('./../img/cliff_right.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: 73.5%;
         top: 16.1%;
         height: 74%;
         width: 26.4%;
+        @include animated_div_duplicate_properties;
     }
     .cliff_left {
         background: url('./../img/cliff_left.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: 0%;
         top: 37%;
         height: 74%;
         width: 11.9%;
+        @include animated_div_duplicate_properties;
     }
     .bask {
         background: url('./../img/bask.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: 54%;
         top: 78%;
         height: 14%;
         width: 27%;
-        animation: bask 29s linear infinite;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+        animation: bask 48s linear infinite;
+        @include animated_div_duplicate_properties;
     }
     .monkey_arm_1 {
         background: url('./../img/monkey_arm_1.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: 47.5%;
         top: 87.5%;
         height: 14%;
         width: 9%;
         transform-origin: 100% 0%;
         animation: monkey_arm_1 .25s alternate infinite;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+        @include animated_div_duplicate_properties;
     }
     .monkey_arm_2 {
         background: url('./../img/monkey_arm_2.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: 46.5%;
         top: 87%;
         height: 14%;
         width: 10%;
         transform-origin: 100% 0%;
         animation: monkey_arm_2 .4s alternate infinite;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+        @include animated_div_duplicate_properties;
     }
     .blink {
         cursor: pointer;
         background: url('./../img/blink.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: 16.8%;
         top: 72%;
         height: 18%;
         width: 23.5%;
         animation: blink .5s alternate infinite;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+        @include animated_div_duplicate_properties;
         &:hover {
             filter: invert(100%);
         }
     }
     .eel {
         background: url('./../img/eel.png');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: 3%;
         top: 61.7%;
         height: 14%;
         width: 33%;
         animation: eel 4s alternate infinite;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+        @include animated_div_duplicate_properties;
         .eel_mouth {
             background: url('./../img/eel_mouth.png');
-            background-size: 100% auto;
-            background-repeat: no-repeat;
-            position: absolute;
             left: 87%;
             top: 27.5%;
             height: 14%;
             width: 11%;
             transform-origin: 0% 50%;
             animation: eel_mouth .6s alternate infinite;
-            -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
+            @include animated_div_duplicate_properties;
         }
     }
     .dolphin_contain {
         background-size: 100% auto;
-        background-repeat: no-repeat;
-        position: absolute;
         left: 3%;
         top: 41.7%;
         height: 6.6%;
         width: 24%;
         animation: dolphin_contain 15s linear infinite;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+        @include animated_div_duplicate_properties;
         .dolphin {
             background: url('./../img/dolphin.png') 0 0 no-repeat;
-            background-size: 100% auto;
-            position: absolute;
             left: 0%;
             top: 0%;
             height: 100%;
             width: 100%;
-            animation: dolphin 1.2s steps(4) infinite;
-            -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
+            animation: dolphin .9s steps(4) infinite;
+            @include animated_div_duplicate_properties;
         }
     }
     .App_city_sparkles {
@@ -862,41 +433,6 @@
             animation-fill-mode: forwards;
             -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
-        }
-    }
-    @keyframes blink-animation {
-        from {
-            visibility: hidden;
-        }
-        13% {
-            visibility: hidden;
-        }
-        15% {
-            visibility: visible;
-        }
-        16% {
-            visibility: hidden;
-        }
-        50% {
-            visibility: hidden;
-        }
-        51% {
-            visibility: visible;
-        }
-        52% {
-            visibility: hidden;
-        }
-        85% {
-            visibility: hidden;
-        }
-        86% {
-            visibility: visible;
-        }
-        87% {
-            visibility: hidden;
-        }
-        to {
-            visibility: hidden;
         }
     }
     .App_bubbles {
@@ -1163,22 +699,5 @@
         left: 61%;
         top: 130%;
         transform: scale(0.3);
-    }
-    // Anim
-    @keyframes animateBubble {
-        0% {
-            margin-top: 1000px;
-        }
-        100% {
-            margin-top: -100%;
-        }
-    }
-    @keyframes sideWays {
-        0% {
-            margin-left: 0px;
-        }
-        100% {
-            margin-left: 50px;
-        }
     }
 }

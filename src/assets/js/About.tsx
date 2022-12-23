@@ -16,21 +16,17 @@ function About() {
    <br />
    <br />
    <br />
-   <motion.div
-    animate={{
-
-     x: 0,
-     backgroundColor: "#000",
-     boxShadow: "10px 10px 0 rgba(0, 0, 0, 0.2)",
-     position: "fixed",
-     transitionEnd: {
-      display: "none",
-     },
-     transition: { duration: 2.5 }
-    }}
-   > <h1>This is the about page</h1></motion.div>
-
-   <h1>This is the about page</h1>
+   <div>
+    <motion.h1
+     initial={{ opacity: 0 }}
+     animate={{
+      y: -20,
+      opacity: 1,
+      position: "relative",
+      transition: { duration: 1.5 }
+     }}
+    >This is the about page</motion.h1>
+   </div>
    <h1>This is the about page</h1>
    <h1>This is the about page</h1>
    <h1>This is the about page</h1>
