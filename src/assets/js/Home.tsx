@@ -29,6 +29,14 @@ function Home() {
    <div className="turtle"></div>
    <div className="ray"></div>
    <div className="whale"></div>
+   <div className="bask"></div>
+   <div className="eel">
+    <div className="eel_mouth"></div>
+   </div>
+   <div className="dolphin_contain">
+    <div className="dolphin"></div>
+   </div>
+
    <div className="App_bubbles">
     <div className="bubble x1"></div>
     <div className="bubble x2"></div>
