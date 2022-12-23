@@ -1,9 +1,16 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './Home.scss'
+import { motion } from 'framer-motion'
 function Home() {
  return (
-  <div className='home'>
+  <motion.div
+   className='home'
+   initial={{ width: 0 }}
+   animate={{ width: "100%" }}
+   exit={{ transform: "translate(100%, 0)", transition: { duration: 0.5 } }}
+
+  >
    <div className='lava_cloud'></div>
    <div className='lava'></div>
    <div className='sun_fire'></div>
@@ -34,28 +41,6 @@ function Home() {
    <div className="jellyfish"></div>
 
    <div className="diver"></div>
-   <div className="cliff_right"></div>
-   <div className="eel">
-    <div className="eel_mouth"></div>
-   </div>
-
-   <div className="cliff_left"></div>
-   <div className="ray"></div>
-   <div className="turtle"></div>
-   <div className="prawn"></div>
-   <div className="little_fish"></div>
-   <div className="gold_fish"></div>
-   <div className="zebra_fish"></div>
-   <div className="blue_fish"></div>
-   <div className="barra1"></div>
-   <div className="barra2"></div>
-   <div className="barra3"></div>
-   <div className="barra4"></div>
-   <div className="barra5"></div>
-   <div className="barra6"></div>
-   <div className="bask"></div>
-   <div className="monkey_arm_1"></div>
-   <div className="monkey_arm_2"></div>
 
    <div className="App_bubbles">
     <div className="bubble x1"></div>
@@ -99,8 +84,31 @@ function Home() {
     <div className="bubble x39"></div>
     <div className="bubble x40"></div>
    </div>
+   <div className="cliff_right"></div>
+   <div className="eel">
+    <div className="eel_mouth"></div>
+   </div>
+
+   <div className="cliff_left"></div>
+   <div className="ray"></div>
+   <div className="turtle"></div>
+   <div className="prawn"></div>
+   <div className="little_fish"></div>
+   <div className="gold_fish"></div>
+   <div className="zebra_fish"></div>
+   <div className="blue_fish"></div>
+   <div className="barra1"></div>
+   <div className="barra2"></div>
+   <div className="barra3"></div>
+   <div className="barra4"></div>
+   <div className="barra5"></div>
+   <div className="barra6"></div>
+   <div className="bask"></div>
+   <div className="monkey_arm_1"></div>
+   <div className="monkey_arm_2"></div>
+
    <Link className="blink" to="about"></Link>
-  </div>
+  </motion.div>
  );
 }
 
