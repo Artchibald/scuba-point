@@ -1,6 +1,7 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom"
 import Nav from "./assets/js/Nav"
+import Footer from "./assets/js/Footer"
 import Home from "./assets/js/Home"
 import About from "./assets/js/About"
 import Gallery from "./assets/js/Gallery"
@@ -25,6 +26,7 @@ function App() {
         </Routes>
       </main>
       <Nav />
+      <Footer />
 
     </div>
   );

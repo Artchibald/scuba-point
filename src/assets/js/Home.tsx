@@ -32,13 +32,15 @@ function Home() {
 
    <div className="whale"></div>
    <div className="jellyfish"></div>
-   <div className="ray"></div>
+
    <div className="diver"></div>
    <div className="cliff_right"></div>
    <div className="eel">
     <div className="eel_mouth"></div>
    </div>
+
    <div className="cliff_left"></div>
+   <div className="ray"></div>
    <div className="turtle"></div>
    <div className="prawn"></div>
    <div className="little_fish"></div>
