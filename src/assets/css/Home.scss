@@ -442,11 +442,250 @@
         right: 0;
         top: 19.4%;
         overflow: hidden;
-        //make sure they are behind content:
         z-index: 0;
         display: none;
         @media (min-width: 660px) {
             display: block;
+        }
+        .x1 {
+            animation: animateBubble 50s linear infinite, sideWays 2s ease-in-out infinite alternate;
+            left: 2%;
+            top: 105%;
+            transform: scale(1.6);
+        }
+        .x2 {
+            animation: animateBubble 40s linear infinite, sideWays 4s ease-in-out infinite alternate;
+            left: 5%;
+            top: 55%;
+            transform: scale(1.4);
+        }
+        .x3 {
+            animation: animateBubble 76s linear infinite, sideWays 2s ease-in-out infinite alternate;
+            left: 10%;
+            top: 75%;
+            transform: scale(1.7);
+        }
+        .x4 {
+            animation: animateBubble 44s linear infinite, sideWays 3s ease-in-out infinite alternate;
+            left: 14%;
+            top: 95%;
+            transform: scale(1.3);
+        }
+        .x5 {
+            animation: animateBubble 58s linear infinite, sideWays 4s ease-in-out infinite alternate;
+            left: 20%;
+            top: 105%;
+            transform: scale(1.5);
+        }
+        .x6 {
+            animation: animateBubble 42s linear infinite, sideWays 2s ease-in-out infinite alternate;
+            left: 80%;
+            top: 125%;
+            transform: scale(1.8);
+        }
+        .x7 {
+            animation: animateBubble 40s linear infinite, sideWays 2s ease-in-out infinite alternate;
+            left: 85%;
+            top: 112%;
+            transform: scale(1.4);
+        }
+        .x8 {
+            animation: animateBubble 44s linear infinite, sideWays 3s ease-in-out infinite alternate;
+            left: 82%;
+            top: 145%;
+            transform: scale(1.3);
+        }
+        .x9 {
+            animation: animateBubble 58s linear infinite, sideWays 4s ease-in-out infinite alternate;
+            left: 92%;
+            top: 135%;
+            transform: scale(1.6);
+        }
+        .x10 {
+            animation: animateBubble 52s linear infinite, sideWays 2s ease-in-out infinite alternate;
+            left: 96%;
+            top: 75%;
+            transform: scale(1.3);
+        }
+        .x11 {
+            animation: animateBubble 60s linear infinite, sideWays 2s ease-in-out infinite alternate;
+            left: 12%;
+            top: 101%;
+            transform: scale(1.6);
+        }
+        .x12 {
+            animation: animateBubble 44s linear infinite, sideWays 4s ease-in-out infinite alternate;
+            left: 7%;
+            top: 59%;
+            transform: scale(1.4);
+        }
+        .x13 {
+            animation: animateBubble 52s linear infinite, sideWays 2s ease-in-out infinite alternate;
+            left: 2%;
+            top: 87%;
+            transform: scale(1.7);
+        }
+        .x14 {
+            animation: animateBubble 48s linear infinite, sideWays 3s ease-in-out infinite alternate;
+            left: 12%;
+            top: 125%;
+            transform: scale(1.3);
+        }
+        .x15 {
+            animation: animateBubble 64s linear infinite, sideWays 4s ease-in-out infinite alternate;
+            left: 22%;
+            top: 11%;
+            transform: scale(1.5);
+        }
+        .x16 {
+            animation: animateBubble 49s linear infinite, sideWays 2s ease-in-out infinite alternate;
+            left: 81%;
+            top: 28%;
+            transform: scale(1.8);
+        }
+        .x17 {
+            animation: animateBubble 48s linear infinite, sideWays 2s ease-in-out infinite alternate;
+            left: 87%;
+            top: 37%;
+            transform: scale(1.4);
+        }
+        .x18 {
+            animation: animateBubble 42s linear infinite, sideWays 3s ease-in-out infinite alternate;
+            left: 84%;
+            top: -10%;
+            transform: scale(1.3);
+        }
+        .x19 {
+            animation: animateBubble 53s linear infinite, sideWays 4s ease-in-out infinite alternate;
+            left: 82%;
+            top: -20%;
+            transform: scale(1.6);
+        }
+        .x20 {
+            animation: animateBubble 59s linear infinite, sideWays 2s ease-in-out infinite alternate;
+            left: 91%;
+            top: -30%;
+            transform: scale(1.3);
+        }
+        .x21 {
+            animation: animateBubble 30s linear infinite, sideWays 2s ease-in-out infinite alternate;
+            left: 7%;
+            top: 87%;
+            transform: scale(1.6);
+        }
+        .x22 {
+            animation: animateBubble 35s linear infinite, sideWays 4s ease-in-out infinite alternate;
+            left: 2%;
+            top: 99%;
+            transform: scale(1.4);
+        }
+        .x23 {
+            animation: animateBubble 71s linear infinite, sideWays 2s ease-in-out infinite alternate;
+            left: 4%;
+            top: 78%;
+            transform: scale(1.7);
+        }
+        .x24 {
+            animation: animateBubble 85s linear infinite, sideWays 3s ease-in-out infinite alternate;
+            left: 14%;
+            top: 94%;
+            transform: scale(0.3);
+        }
+        .x25 {
+            animation: animateBubble 84s linear infinite, sideWays 4s ease-in-out infinite alternate;
+            left: 12%;
+            top: 85%;
+            transform: scale(0.5);
+        }
+        .x26 {
+            animation: animateBubble 39s linear infinite, sideWays 2s ease-in-out infinite alternate;
+            left: 83%;
+            top: 121%;
+            transform: scale(0.8);
+        }
+        .x27 {
+            animation: animateBubble 46s linear infinite, sideWays 2s ease-in-out infinite alternate;
+            left: 88%;
+            top: -50%;
+            transform: scale(0.4);
+        }
+        .x28 {
+            animation: animateBubble 88s linear infinite, sideWays 3s ease-in-out infinite alternate;
+            left: 86%;
+            top: 142%;
+            transform: scale(0.3);
+        }
+        .x29 {
+            animation: animateBubble 102s linear infinite, sideWays 4s ease-in-out infinite alternate;
+            left: 95%;
+            top: 137%;
+            transform: scale(0.6);
+        }
+        .x30 {
+            animation: animateBubble 111s linear infinite, sideWays 2s ease-in-out infinite alternate;
+            left: 79%;
+            top: 79%;
+            transform: scale(0.3);
+        }
+        .x31 {
+            animation: animateBubble 80s linear infinite, sideWays 2s ease-in-out infinite alternate;
+            left: 18%;
+            top: 104%;
+            transform: scale(0.6);
+        }
+        .x32 {
+            animation: animateBubble 54s linear infinite, sideWays 4s ease-in-out infinite alternate;
+            left: 17%;
+            top: 32%;
+            transform: scale(0.4);
+        }
+        .x33 {
+            animation: animateBubble 59s linear infinite, sideWays 2s ease-in-out infinite alternate;
+            left: 3%;
+            top: 40%;
+            transform: scale(0.7);
+        }
+        .x34 {
+            animation: animateBubble 45s linear infinite, sideWays 3s ease-in-out infinite alternate;
+            left: 1%;
+            top: 123%;
+            transform: scale(0.3);
+        }
+        .x35 {
+            animation: animateBubble 76s linear infinite, sideWays 4s ease-in-out infinite alternate;
+            left: 14%;
+            top: 33%;
+            transform: scale(0.5);
+        }
+        .x36 {
+            animation: animateBubble 74s linear infinite, sideWays 2s ease-in-out infinite alternate;
+            left: 18%;
+            top: 18%;
+            transform: scale(0.8);
+        }
+        .x37 {
+            animation: animateBubble 93s linear infinite, sideWays 2s ease-in-out infinite alternate;
+            left: 75%;
+            top: 55%;
+            transform: scale(0.4);
+        }
+        .x38 {
+            animation: animateBubble 98s linear infinite, sideWays 3s ease-in-out infinite alternate;
+            left: 24%;
+            top: -100%;
+            transform: scale(0.3);
+        }
+        .x39 {
+            animation: animateBubble 50s linear infinite, sideWays 4s ease-in-out infinite alternate;
+            left: 22%;
+            top: 102%;
+            transform: scale(0.6);
+        }
+        .x40 {
+            animation: animateBubble 52s linear infinite, sideWays 2s ease-in-out infinite alternate;
+            left: 61%;
+            top: 130%;
+            transform: scale(0.3);
         }
         .bubble {
             opacity: 0.6;
@@ -458,246 +697,5 @@
             background-position: center top;
             background-repeat: no-repeat;
         }
-    }
-    //each bubble
-    .x1 {
-        animation: animateBubble 50s linear infinite, sideWays 2s ease-in-out infinite alternate;
-        left: 2%;
-        top: 105%;
-        transform: scale(1.6);
-    }
-    .x2 {
-        animation: animateBubble 40s linear infinite, sideWays 4s ease-in-out infinite alternate;
-        left: 5%;
-        top: 55%;
-        transform: scale(1.4);
-    }
-    .x3 {
-        animation: animateBubble 76s linear infinite, sideWays 2s ease-in-out infinite alternate;
-        left: 10%;
-        top: 75%;
-        transform: scale(1.7);
-    }
-    .x4 {
-        animation: animateBubble 44s linear infinite, sideWays 3s ease-in-out infinite alternate;
-        left: 14%;
-        top: 95%;
-        transform: scale(1.3);
-    }
-    .x5 {
-        animation: animateBubble 58s linear infinite, sideWays 4s ease-in-out infinite alternate;
-        left: 20%;
-        top: 105%;
-        transform: scale(1.5);
-    }
-    .x6 {
-        animation: animateBubble 42s linear infinite, sideWays 2s ease-in-out infinite alternate;
-        left: 80%;
-        top: 125%;
-        transform: scale(1.8);
-    }
-    .x7 {
-        animation: animateBubble 40s linear infinite, sideWays 2s ease-in-out infinite alternate;
-        left: 85%;
-        top: 112%;
-        transform: scale(1.4);
-    }
-    .x8 {
-        animation: animateBubble 44s linear infinite, sideWays 3s ease-in-out infinite alternate;
-        left: 82%;
-        top: 145%;
-        transform: scale(1.3);
-    }
-    .x9 {
-        animation: animateBubble 58s linear infinite, sideWays 4s ease-in-out infinite alternate;
-        left: 92%;
-        top: 135%;
-        transform: scale(1.6);
-    }
-    .x10 {
-        animation: animateBubble 52s linear infinite, sideWays 2s ease-in-out infinite alternate;
-        left: 96%;
-        top: 75%;
-        transform: scale(1.3);
-    }
-    .x11 {
-        animation: animateBubble 60s linear infinite, sideWays 2s ease-in-out infinite alternate;
-        left: 12%;
-        top: 101%;
-        transform: scale(1.6);
-    }
-    .x12 {
-        animation: animateBubble 44s linear infinite, sideWays 4s ease-in-out infinite alternate;
-        left: 7%;
-        top: 59%;
-        transform: scale(1.4);
-    }
-    .x13 {
-        animation: animateBubble 52s linear infinite, sideWays 2s ease-in-out infinite alternate;
-        left: 2%;
-        top: 87%;
-        transform: scale(1.7);
-    }
-    .x14 {
-        animation: animateBubble 48s linear infinite, sideWays 3s ease-in-out infinite alternate;
-        left: 12%;
-        top: 125%;
-        transform: scale(1.3);
-    }
-    .x15 {
-        animation: animateBubble 64s linear infinite, sideWays 4s ease-in-out infinite alternate;
-        left: 22%;
-        top: 11%;
-        transform: scale(1.5);
-    }
-    .x16 {
-        animation: animateBubble 49s linear infinite, sideWays 2s ease-in-out infinite alternate;
-        left: 81%;
-        top: 28%;
-        transform: scale(1.8);
-    }
-    .x17 {
-        animation: animateBubble 48s linear infinite, sideWays 2s ease-in-out infinite alternate;
-        left: 87%;
-        top: 37%;
-        transform: scale(1.4);
-    }
-    .x18 {
-        animation: animateBubble 42s linear infinite, sideWays 3s ease-in-out infinite alternate;
-        left: 84%;
-        top: -10%;
-        transform: scale(1.3);
-    }
-    .x19 {
-        animation: animateBubble 53s linear infinite, sideWays 4s ease-in-out infinite alternate;
-        left: 82%;
-        top: -20%;
-        transform: scale(1.6);
-    }
-    .x20 {
-        animation: animateBubble 59s linear infinite, sideWays 2s ease-in-out infinite alternate;
-        left: 91%;
-        top: -30%;
-        transform: scale(1.3);
-    }
-    .x21 {
-        animation: animateBubble 30s linear infinite, sideWays 2s ease-in-out infinite alternate;
-        left: 7%;
-        top: 87%;
-        transform: scale(1.6);
-    }
-    .x22 {
-        animation: animateBubble 35s linear infinite, sideWays 4s ease-in-out infinite alternate;
-        left: 2%;
-        top: 99%;
-        transform: scale(1.4);
-    }
-    .x23 {
-        animation: animateBubble 71s linear infinite, sideWays 2s ease-in-out infinite alternate;
-        left: 4%;
-        top: 78%;
-        transform: scale(1.7);
-    }
-    .x24 {
-        animation: animateBubble 85s linear infinite, sideWays 3s ease-in-out infinite alternate;
-        left: 14%;
-        top: 94%;
-        transform: scale(0.3);
-    }
-    .x25 {
-        animation: animateBubble 84s linear infinite, sideWays 4s ease-in-out infinite alternate;
-        left: 12%;
-        top: 85%;
-        transform: scale(0.5);
-    }
-    .x26 {
-        animation: animateBubble 39s linear infinite, sideWays 2s ease-in-out infinite alternate;
-        left: 83%;
-        top: 121%;
-        transform: scale(0.8);
-    }
-    .x27 {
-        animation: animateBubble 46s linear infinite, sideWays 2s ease-in-out infinite alternate;
-        left: 88%;
-        top: -50%;
-        transform: scale(0.4);
-    }
-    .x28 {
-        animation: animateBubble 88s linear infinite, sideWays 3s ease-in-out infinite alternate;
-        left: 86%;
-        top: 142%;
-        transform: scale(0.3);
-    }
-    .x29 {
-        animation: animateBubble 102s linear infinite, sideWays 4s ease-in-out infinite alternate;
-        left: 95%;
-        top: 137%;
-        transform: scale(0.6);
-    }
-    .x30 {
-        animation: animateBubble 111s linear infinite, sideWays 2s ease-in-out infinite alternate;
-        left: 79%;
-        top: 79%;
-        transform: scale(0.3);
-    }
-    .x31 {
-        animation: animateBubble 80s linear infinite, sideWays 2s ease-in-out infinite alternate;
-        left: 18%;
-        top: 104%;
-        transform: scale(0.6);
-    }
-    .x32 {
-        animation: animateBubble 54s linear infinite, sideWays 4s ease-in-out infinite alternate;
-        left: 17%;
-        top: 32%;
-        transform: scale(0.4);
-    }
-    .x33 {
-        animation: animateBubble 59s linear infinite, sideWays 2s ease-in-out infinite alternate;
-        left: 3%;
-        top: 40%;
-        transform: scale(0.7);
-    }
-    .x34 {
-        animation: animateBubble 45s linear infinite, sideWays 3s ease-in-out infinite alternate;
-        left: 1%;
-        top: 123%;
-        transform: scale(0.3);
-    }
-    .x35 {
-        animation: animateBubble 76s linear infinite, sideWays 4s ease-in-out infinite alternate;
-        left: 14%;
-        top: 33%;
-        transform: scale(0.5);
-    }
-    .x36 {
-        animation: animateBubble 74s linear infinite, sideWays 2s ease-in-out infinite alternate;
-        left: 18%;
-        top: 18%;
-        transform: scale(0.8);
-    }
-    .x37 {
-        animation: animateBubble 93s linear infinite, sideWays 2s ease-in-out infinite alternate;
-        left: 75%;
-        top: 55%;
-        transform: scale(0.4);
-    }
-    .x38 {
-        animation: animateBubble 98s linear infinite, sideWays 3s ease-in-out infinite alternate;
-        left: 24%;
-        top: -100%;
-        transform: scale(0.3);
-    }
-    .x39 {
-        animation: animateBubble 50s linear infinite, sideWays 4s ease-in-out infinite alternate;
-        left: 22%;
-        top: 102%;
-        transform: scale(0.6);
-    }
-    .x40 {
-        animation: animateBubble 52s linear infinite, sideWays 2s ease-in-out infinite alternate;
-        left: 61%;
-        top: 130%;
-        transform: scale(0.3);
     }
 }
