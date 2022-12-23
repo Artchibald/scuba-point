@@ -381,7 +381,7 @@
         background-size: 100% auto;
         background-repeat: no-repeat;
         position: absolute;
-        left: 21.9%;
+        left: 37%;
         top: 21.7%;
         height: 33%;
         width: 23%;
@@ -603,7 +603,7 @@
         top: 61.7%;
         height: 14%;
         width: 33%;
-        animation: eel 1s alternate infinite;
+        animation: eel 4s alternate infinite;
         .eel_mouth {
             background: url('./../img/eel_mouth.png');
             background-size: 100% auto;
@@ -635,6 +635,116 @@
             height: 100%;
             width: 100%;
             animation: dolphin 1.2s steps(4) infinite;
+        }
+    }
+    .App_city_sparkles {
+        width: 38%;
+        height: 20%;
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        .App_sparkle {
+            width: 4px;
+            height: 4px;
+            position: relative;
+            border-radius: 50%;
+            background-color: cyan;
+            box-shadow: 1px 5px 40px 10px rgba(3, 223, 255, 0.36);
+        }
+        .s1 {
+            top: 30%;
+            left: 60%;
+            animation: blink-animation 3s infinite;
+            animation-fill-mode: forwards;
+        }
+        .s2 {
+            top: 40%;
+            left: 40%;
+            animation: blink-animation 6s infinite;
+            animation-fill-mode: forwards;
+        }
+        .s3 {
+            top: 50%;
+            left: 57%;
+            animation: blink-animation 1s infinite;
+            animation-fill-mode: forwards;
+        }
+        .s4 {
+            top: 60%;
+            left: 65%;
+            animation: blink-animation 11s infinite;
+            animation-fill-mode: forwards;
+        }
+        .s5 {
+            top: 70%;
+            left: 63%;
+            animation: blink-animation 9s infinite;
+            animation-fill-mode: forwards;
+        }
+        .s6 {
+            top: 89%;
+            left: 62%;
+            animation: blink-animation 12s infinite;
+            animation-fill-mode: forwards;
+        }
+        .s7 {
+            top: 33%;
+            left: 44%;
+            animation: blink-animation 8s infinite;
+            animation-fill-mode: forwards;
+        }
+        .s8 {
+            top: 6%;
+            left: 88%;
+            animation: blink-animation 12s infinite;
+            animation-fill-mode: forwards;
+        }
+        .s9 {
+            top: 59%;
+            left: 32%;
+            animation: blink-animation 22s infinite;
+            animation-fill-mode: forwards;
+        }
+        .s10 {
+            top: 12%;
+            left: 50%;
+            animation: blink-animation 1s infinite;
+            animation-fill-mode: forwards;
+        }
+    }
+    @keyframes blink-animation {
+        from {
+            visibility: hidden;
+        }
+        13% {
+            visibility: hidden;
+        }
+        15% {
+            visibility: visible;
+        }
+        16% {
+            visibility: hidden;
+        }
+        50% {
+            visibility: hidden;
+        }
+        51% {
+            visibility: visible;
+        }
+        52% {
+            visibility: hidden;
+        }
+        85% {
+            visibility: hidden;
+        }
+        86% {
+            visibility: visible;
+        }
+        87% {
+            visibility: hidden;
+        }
+        to {
+            visibility: hidden;
         }
     }
     .App_bubbles {

@@ -16,10 +16,11 @@ function Home() {
    <div className="dolphin_contain">
     <div className="dolphin"></div>
    </div>
-   <div className="jellyfish"></div>
-   <div className="whale"></div>
-   <div className="ray"></div>
 
+   <div className="whale"></div>
+
+   <div className="jellyfish"></div>
+   <div className="ray"></div>
    <div className="diver"></div>
    <div className="cliff_right"></div>
    <div className="eel">
@@ -39,6 +40,18 @@ function Home() {
    <div className="barra5"></div>
    <div className="barra6"></div>
    <div className="bask"></div>
+   <div className="App_city_sparkles">
+    <div className="App_sparkle s1"> </div>
+    <div className="App_sparkle s2"> </div>
+    <div className="App_sparkle s3"> </div>
+    <div className="App_sparkle s4"> </div>
+    <div className="App_sparkle s5"> </div>
+    <div className="App_sparkle s6"> </div>
+    <div className="App_sparkle s7"> </div>
+    <div className="App_sparkle s8"> </div>
+    <div className="App_sparkle s9"> </div>
+    <div className="App_sparkle s10"> </div>
+   </div>
    <div className="App_bubbles">
     <div className="bubble x1"></div>
     <div className="bubble x2"></div>
