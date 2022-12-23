@@ -563,6 +563,26 @@
         width: 72%;
         animation: whale 79s linear infinite;
     }
+    .cliff_right {
+        background: url('./../img/cliff_right.png');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 73.5%;
+        top: 16.1%;
+        height: 74%;
+        width: 26.4%;
+    }
+    .cliff_left {
+        background: url('./../img/cliff_left.png');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 0%;
+        top: 37%;
+        height: 74%;
+        width: 11.9%;
+    }
     .bask {
         background: url('./../img/bask.png');
         background-size: 100% auto;
@@ -583,7 +603,7 @@
         top: 61.7%;
         height: 14%;
         width: 33%;
-        animation: eel 4s alternate infinite;
+        animation: eel 1s alternate infinite;
         .eel_mouth {
             background: url('./../img/eel_mouth.png');
             background-size: 100% auto;

@@ -13,30 +13,32 @@ function Home() {
     <div className='gonza_arm'></div>
    </div>
    <div className='diver_arm'></div>
+   <div className="dolphin_contain">
+    <div className="dolphin"></div>
+   </div>
    <div className="jellyfish"></div>
-   <div className="zebra_fish"></div>
-   <div className="gold_fish"></div>
-   <div className="blue_fish"></div>
+   <div className="whale"></div>
+   <div className="ray"></div>
+
    <div className="diver"></div>
-   <div className="little_fish"></div>
+   <div className="cliff_right"></div>
+   <div className="eel">
+    <div className="eel_mouth"></div>
+   </div>
+   <div className="cliff_left"></div>
+   <div className="turtle"></div>
    <div className="prawn"></div>
+   <div className="little_fish"></div>
+   <div className="gold_fish"></div>
+   <div className="zebra_fish"></div>
+   <div className="blue_fish"></div>
    <div className="barra1"></div>
    <div className="barra2"></div>
    <div className="barra3"></div>
    <div className="barra4"></div>
    <div className="barra5"></div>
    <div className="barra6"></div>
-   <div className="turtle"></div>
-   <div className="ray"></div>
-   <div className="whale"></div>
    <div className="bask"></div>
-   <div className="eel">
-    <div className="eel_mouth"></div>
-   </div>
-   <div className="dolphin_contain">
-    <div className="dolphin"></div>
-   </div>
-
    <div className="App_bubbles">
     <div className="bubble x1"></div>
     <div className="bubble x2"></div>
