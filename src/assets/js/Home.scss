@@ -290,6 +290,8 @@
     top: -0.3%;
     height: 5%;
     width: 13%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .home {
@@ -316,6 +318,8 @@
         width: 71%;
         padding-top: 0%;
         animation: MoveUpDown 2s linear infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
     .object {
         position: absolute;
@@ -333,6 +337,8 @@
         width: 12%;
         transform-origin: 50% 50%;
         animation: spin 4s linear infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
     .sun_face {
         background: url('./../img/sun_face.png');
@@ -354,6 +360,8 @@
         height: 4%;
         width: 19.5%;
         animation: MoveFerry 88s linear infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
     .boat {
         background: url('./../img/boat.png');
@@ -366,6 +374,8 @@
         width: 49.5%;
         transform-origin: 50% 50%;
         animation: MoveBoat 2s linear infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
         .teacher_arm {
             background: url('./../img/teacher_arm.png');
             background-size: 100% auto;
@@ -377,6 +387,8 @@
             width: 3.5%;
             transform-origin: 0% 100%;
             animation: Waving 1s linear infinite;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
         }
         .gonza_arm {
             background: url('./../img/gonza_arm.png');
@@ -389,6 +401,8 @@
             width: 6.5%;
             transform-origin: 0% 100%;
             animation: Waving 1s linear infinite;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
         }
     }
     .diver_arm {
@@ -402,6 +416,8 @@
         width: 3.5%;
         transform-origin: 0% 100%;
         animation: Waving 1s linear infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
     .jellyfish {
         background: url('./../img/jellyfish.png');
@@ -413,6 +429,8 @@
         height: 33%;
         width: 23%;
         animation: Jellyfish 33s linear infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
     .zebra_fish {
         background: url('./../img/zebra_fish.png');
@@ -424,6 +442,8 @@
         height: 4%;
         width: 7%;
         animation: zebra_fish 20s linear infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
     .gold_fish {
         background: url('./../img/gold_fish.png');
@@ -435,6 +455,8 @@
         height: 3%;
         width: 10%;
         animation: gold_fish 30s linear infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
     .blue_fish {
         background: url('./../img/blue_fish.png');
@@ -446,6 +468,8 @@
         height: 3%;
         width: 10%;
         animation: blue_fish 40s linear infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
     .diver {
         background: url('./../img/diver.png');
@@ -457,6 +481,8 @@
         height: 17%;
         width: 24%;
         animation: diver 40s linear infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
     .little_fish {
         background: url('./../img/little_fish.png');
@@ -468,6 +494,8 @@
         height: 1.9%;
         width: 3%;
         animation: little_fish 40s linear infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
     .prawn {
         background: url('./../img/prawn.png');
@@ -479,6 +507,8 @@
         height: 1.6%;
         width: 2%;
         animation: prawn 40s linear infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
     .barra1 {
         background: url('./../img/barra1.png');
@@ -490,6 +520,8 @@
         height: 3.6%;
         width: 12%;
         animation: barra1 8s linear infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
     .barra2 {
         background: url('./../img/barra2.png');
@@ -501,6 +533,8 @@
         height: 3.6%;
         width: 12%;
         animation: barra2 12s linear infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
     .barra3 {
         background: url('./../img/barra3.png');
@@ -512,6 +546,8 @@
         height: 3.9%;
         width: 12%;
         animation: barra3 6s linear infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
     .barra4 {
         background: url('./../img/barra4.png');
@@ -523,6 +559,8 @@
         height: 3.6%;
         width: 12%;
         animation: barra4 11s linear infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
     .barra5 {
         background: url('./../img/barra5.png');
@@ -534,6 +572,8 @@
         height: 3.6%;
         width: 12%;
         animation: barra5 9s linear infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
     .barra5 {
         background: url('./../img/barra5.png');
@@ -545,6 +585,8 @@
         height: 3.6%;
         width: 12%;
         animation: barra5 9s linear infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
     .barra6 {
         background: url('./../img/barra6.png');
@@ -556,6 +598,8 @@
         height: 3.6%;
         width: 12%;
         animation: barra6 5s linear infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
     .turtle {
         background: url('./../img/turtle.png');
@@ -567,6 +611,8 @@
         height: 11.6%;
         width: 23%;
         animation: turtle 55s linear infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
     .ray {
         background: url('./../img/ray.png');
@@ -578,6 +624,8 @@
         height: 14.6%;
         width: 24%;
         animation: ray 88s linear infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
     .whale {
         background: url('./../img/whale.png');
@@ -589,6 +637,8 @@
         height: 14%;
         width: 72%;
         animation: whale 79s linear infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
     .cliff_right {
         background: url('./../img/cliff_right.png');
@@ -620,6 +670,8 @@
         height: 14%;
         width: 27%;
         animation: bask 29s linear infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
     .monkey_arm_1 {
         background: url('./../img/monkey_arm_1.png');
@@ -632,6 +684,8 @@
         width: 9%;
         transform-origin: 100% 0%;
         animation: monkey_arm_1 .25s alternate infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
     .monkey_arm_2 {
         background: url('./../img/monkey_arm_2.png');
@@ -644,6 +698,8 @@
         width: 10%;
         transform-origin: 100% 0%;
         animation: monkey_arm_2 .4s alternate infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
     .blink {
         cursor: pointer;
@@ -656,6 +712,8 @@
         height: 18%;
         width: 23.5%;
         animation: blink .5s alternate infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
         &:hover {
             filter: invert(100%);
         }
@@ -670,6 +728,8 @@
         height: 14%;
         width: 33%;
         animation: eel 4s alternate infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
         .eel_mouth {
             background: url('./../img/eel_mouth.png');
             background-size: 100% auto;
@@ -681,6 +741,8 @@
             width: 11%;
             transform-origin: 0% 50%;
             animation: eel_mouth .6s alternate infinite;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
         }
     }
     .dolphin_contain {
@@ -692,6 +754,8 @@
         height: 6.6%;
         width: 24%;
         animation: dolphin_contain 15s linear infinite;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
         .dolphin {
             background: url('./../img/dolphin.png') 0 0 no-repeat;
             background-size: 100% auto;
@@ -701,6 +765,8 @@
             height: 100%;
             width: 100%;
             animation: dolphin 1.2s steps(4) infinite;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
         }
     }
     .App_city_sparkles {
@@ -722,60 +788,80 @@
             left: 60%;
             animation: blink-animation 3s infinite;
             animation-fill-mode: forwards;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
         }
         .s2 {
             top: 40%;
             left: 40%;
             animation: blink-animation 6s infinite;
             animation-fill-mode: forwards;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
         }
         .s3 {
             top: 50%;
             left: 57%;
             animation: blink-animation 1s infinite;
             animation-fill-mode: forwards;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
         }
         .s4 {
             top: 60%;
             left: 65%;
             animation: blink-animation 11s infinite;
             animation-fill-mode: forwards;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
         }
         .s5 {
             top: 70%;
             left: 63%;
             animation: blink-animation 9s infinite;
             animation-fill-mode: forwards;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
         }
         .s6 {
             top: 89%;
             left: 62%;
             animation: blink-animation 12s infinite;
             animation-fill-mode: forwards;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
         }
         .s7 {
             top: 33%;
             left: 44%;
             animation: blink-animation 8s infinite;
             animation-fill-mode: forwards;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
         }
         .s8 {
             top: 6%;
             left: 88%;
             animation: blink-animation 12s infinite;
             animation-fill-mode: forwards;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
         }
         .s9 {
             top: 59%;
             left: 32%;
             animation: blink-animation 22s infinite;
             animation-fill-mode: forwards;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
         }
         .s10 {
             top: 12%;
             left: 50%;
             animation: blink-animation 1s infinite;
             animation-fill-mode: forwards;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
         }
     }
     @keyframes blink-animation {

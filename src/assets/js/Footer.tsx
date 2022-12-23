@@ -5,16 +5,12 @@ import LogoLight from "./../img/scuba-point.svg";
 import facebookIcon from "./../img/icons/facebook.png";
 import instagramIcon from "./../img/icons/instagram.png";
 function Footer() {
-
-
-
  var facebookRoll = {
   backgroundImage: `url(${facebookIcon})`,
  };
  var instagramRoll = {
   backgroundImage: `url(${instagramIcon})`,
  };
-
  return (
   <>
    <footer>

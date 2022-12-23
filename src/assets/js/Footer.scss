@@ -9,11 +9,10 @@ footer {
         height: 45px;
         width: 90px;
         position: relative;
-        float: none;
+        float: right;
         display: block;
         @media (min-width: 660px) {
             margin: 36px;
-            float: right;
         }
         .social-roll {
             background-size: 100% 100%;
