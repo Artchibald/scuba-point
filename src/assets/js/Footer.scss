@@ -1,19 +1,18 @@
 footer {
     position: relative;
-    padding: 10px;
     border-top: 1px solid black;
-    @media (min-width: 660px) {
-        padding: 30px;
+    a {
+        cursor: pointer;
     }
     .social-roll-wrap {
+        margin: 15px;
         height: 45px;
         width: 90px;
         position: relative;
         float: none;
         display: block;
-        margin: 30px auto 30px auto;
         @media (min-width: 660px) {
-            margin: 0;
+            margin: 36px;
             float: right;
         }
         .social-roll {
@@ -47,6 +46,7 @@ footer {
         }
     }
     .logo {
+        margin: 10px;
         float: left;
         width: 96px;
         height: auto;
@@ -55,6 +55,7 @@ footer {
         display: block;
         @media (min-width: 660px) {
             width: 130px;
+            margin: 30px;
         }
     }
 }

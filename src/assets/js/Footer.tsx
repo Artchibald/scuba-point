@@ -1,5 +1,6 @@
 import React from 'react'
-import "./Footer.scss"
+import "./Footer.scss";
+import { Link } from "react-router-dom";
 import LogoLight from "./../img/scuba-point.svg";
 import facebookIcon from "./../img/icons/facebook.png";
 import instagramIcon from "./../img/icons/instagram.png";
@@ -17,7 +18,10 @@ function Footer() {
  return (
   <>
    <footer>
-    <img className="logo" src={LogoLight} alt="Scuba Point logo" />
+    <Link to="/">
+     <img className="logo" src={LogoLight} alt="Scuba Point logo" />
+    </Link>
+
     <div className="social-roll-wrap">
      <a
       aria-label="Social links"
@@ -27,15 +31,12 @@ function Footer() {
      </a>
      <a
       aria-label="Social links"
-      href="https://www.facebook.com/archibald.butler"
+      href="https://www.instagram.com/scubapointtenerife/?hl=en"
      >
       <span className="social-roll facebook-roll" style={instagramRoll}></span>
      </a>
-
     </div>
-
    </footer>
-
   </>
  )
 }
