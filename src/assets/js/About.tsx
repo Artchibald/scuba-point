@@ -2,6 +2,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import Container from 'react-bootstrap/Container';
+import './../css/Wrapper.scss'
 function About() {
  return (
   <motion.div
@@ -9,9 +10,7 @@ function About() {
    initial={{ width: "0%" }}
    animate={{ width: "100%" }}
    exit={{ transform: "translate(100%, 0)", transition: { duration: 0.5 } }}
-
   >
-
    <div>
     <Container>
      <motion.h1
@@ -31,7 +30,7 @@ function About() {
        y: 20,
        opacity: 1,
        position: "relative",
-       transition: { duration: 1.25, delay: 0.75 }
+       transition: { duration: 0.75, delay: 0.75 }
       }}
      >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis sem ornare, imperdiet ante a, aliquet risus. Donec velit est, congue vel mauris ut, mattis tristique ipsum. Vestibulum commodo faucibus iaculis. Donec pellentesque, dolor sed pretium hendrerit, tortor odio varius sapien, non lobortis metus metus nec ipsum. Duis tempor ut sem vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur mauris arcu, non hendrerit lorem faucibus eu.
 
@@ -45,25 +44,6 @@ function About() {
     </Container>
 
    </div>
-   <h1>This is the about page</h1>
-   <h1>This is the about page</h1>
-   <h1>This is the about page</h1>
-   <h1>This is the about page</h1>
-   <h1>This is the about page</h1>
-   <h1>This is the about page</h1>
-   <h1>This is the about page</h1>
-   <h1>This is the about page</h1>
-   <h1>This is the about page</h1>
-   <h1>This is the about page</h1>
-   <h1>This is the about page</h1>
-   <h1>This is the about page</h1>
-   <h1>This is the about page</h1>
-   <h1>This is the about page</h1>
-   <h1>This is the about page</h1>
-   <h1>This is the about page</h1>
-   <h1>This is the about page</h1>
-   <h1>This is the about page</h1>
-   <h1>This is the about page</h1>
   </motion.div>
  )
 }

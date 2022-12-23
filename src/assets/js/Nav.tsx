@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Link } from "react-router-dom";
-import "./Nav.scss"
+import "./../css/Nav.scss"
 import LogoLight from "./../img/scuba-point.svg";
 function showMenu() {
   var toggleVariable: any = document.getElementById('main-menu');

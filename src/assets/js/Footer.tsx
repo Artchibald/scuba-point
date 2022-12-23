@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Footer.scss";
+import "./../css/Footer.scss";
 import { Link } from "react-router-dom";
 import LogoLight from "./../img/scuba-point.svg";
 import facebookIcon from "./../img/icons/facebook.png";
