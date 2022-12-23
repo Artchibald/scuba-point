@@ -6,7 +6,7 @@ function Home() {
  return (
   <motion.div
    className='home'
-   initial={{ width: 0 }}
+   initial={{ width: "100%" }}
    animate={{ width: "100%" }}
    exit={{ transform: "translate(100%, 0)", transition: { duration: 0.5 } }}
   >
