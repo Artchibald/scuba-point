@@ -175,6 +175,36 @@
     }
 }
 
+@keyframes turtle {
+    0% {
+        left: -18%;
+    }
+    100% {
+        left: 112%;
+        top: 17%
+    }
+}
+
+@keyframes ray {
+    0% {
+        left: 128%;
+    }
+    100% {
+        left: -20%;
+        top: 78%
+    }
+}
+
+@keyframes whale {
+    0% {
+        left: 128%;
+    }
+    100% {
+        left: -20%;
+        top: 49%
+    }
+}
+
 .lava {
     background: url('./../img/lava.png');
     background-size: 100% auto;
@@ -429,6 +459,17 @@
         width: 12%;
         animation: barra5 9s linear infinite;
     }
+    .barra5 {
+        background: url('./../img/barra5.png');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: -12%;
+        top: 55%;
+        height: 3.6%;
+        width: 12%;
+        animation: barra5 9s linear infinite;
+    }
     .barra6 {
         background: url('./../img/barra6.png');
         background-size: 100% auto;
@@ -439,6 +480,39 @@
         height: 3.6%;
         width: 12%;
         animation: barra6 5s linear infinite;
+    }
+    .turtle {
+        background: url('./../img/turtle.png');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: -24%;
+        top: 37%;
+        height: 11.6%;
+        width: 23%;
+        animation: turtle 55s linear infinite;
+    }
+    .ray {
+        background: url('./../img/ray.png');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 124%;
+        top: 37%;
+        height: 14.6%;
+        width: 24%;
+        animation: ray 99s linear infinite;
+    }
+    .whale {
+        background: url('./../img/whale.png');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 154%;
+        top: 50%;
+        height: 14%;
+        width: 72%;
+        animation: whale 79s linear infinite;
     }
     .App_bubbles {
         bottom: 0;

@@ -26,6 +26,9 @@ function Home() {
    <div className="barra4"></div>
    <div className="barra5"></div>
    <div className="barra6"></div>
+   <div className="turtle"></div>
+   <div className="ray"></div>
+   <div className="whale"></div>
    <div className="App_bubbles">
     <div className="bubble x1"></div>
     <div className="bubble x2"></div>
