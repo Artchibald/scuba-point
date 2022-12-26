@@ -9,9 +9,10 @@ function App() {
     <div className="App">
       <main>
         <AnimatedRoutes />
+        <Footer />
       </main>
       <Nav />
-      <Footer />
+
 
     </div>
   );
