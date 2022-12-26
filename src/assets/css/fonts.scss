@@ -10,8 +10,7 @@ h4,
 .h4,
 .h4,
 button,
-header #main-menu a,
-header #main-menu h3 {
+header #main-menu a {
     font-family: 'Syncopate', sans-serif;
     font-weight: 700;
     span {
@@ -20,6 +19,7 @@ header #main-menu h3 {
 }
 
 p.special_p,
+header #main-menu h3,
 div {
     font-family: 'Syncopate', sans-serif;
     font-weight: 400;

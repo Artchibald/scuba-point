@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import BookingForm from "./BookingForm"
+import './../css/modal.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
 function BookingsModal() {
     const [show, setShow] = useState(false);
-
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
     return (

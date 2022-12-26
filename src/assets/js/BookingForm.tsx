@@ -4,6 +4,7 @@ function Gallery() {
  return (
   <
    >
+   <p className='special_p'>Use the form below to send us an instant message and we will get back to you as soon as possible.</p>
    <form target="_blank" action="https://formsubmit.co/archie@archibaldbutler.com" method="POST">
     <div className="form-group">
      <div className="form-row">
@@ -27,7 +28,7 @@ function Gallery() {
     <div className="form-group">
      <textarea placeholder="Your Message" className="form-control mb-3" name="message" required></textarea>
     </div>
-    <button type="submit" className="btn btn-lg btn-dark btn-block">Submit Form</button>
+    <button type="submit" className="btn btn-lg btn-dark btn-block w-100">Submit Form</button>
    </form>
   </>
  )
