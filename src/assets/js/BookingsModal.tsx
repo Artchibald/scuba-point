@@ -11,13 +11,12 @@ function BookingsModal() {
     return (
         <>
             <Button variant="primary" className="btn btn-outline-dark btn-lg" onClick={handleShow}>
-                BOOK YOUR TRIP NOW!
+                BOOK YOUR TRIP
             </Button>
 
             <Modal
                 show={show}
                 onHide={handleClose}
-                backdrop="static"
                 keyboard={false}
             >
                 <Modal.Header closeButton>
