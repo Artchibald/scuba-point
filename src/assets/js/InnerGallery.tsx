@@ -66,207 +66,207 @@ function InnerGallery() {
   >
    <Container>
     <Row>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb1} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb2} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb3} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb4} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb5} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb6} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb2} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb3} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb4} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb5} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb6} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb7} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb8} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb9} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb10} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb11} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb12} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb13} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb14} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb15} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb16} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb18} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb19} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb20} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb21} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb22} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb23} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb24} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb25} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb28} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb29} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb30} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb31} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb32} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb33} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb34} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb35} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb36} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb37} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb38} alt="Scuba Point Gallery" />
       </div>
      </div>
-     <div className="item col-md-4 mb-4">
+     <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb39} alt="Scuba Point Gallery" />
       </div>

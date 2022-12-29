@@ -122,7 +122,7 @@ function Contact() {
           y: -10,
           opacity: 1,
           position: "relative",
-          transition: { duration: 0.9, delay: 1.2 }
+          transition: { duration: 0.6, delay: 0.9 }
          }}
         ><img src={team1} className='w-100 img-fluid' alt="Gonza, instructor contact number" /></motion.div>
         <div className='col-9'>
