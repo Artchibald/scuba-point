@@ -31,7 +31,7 @@ function About() {
           y: 20,
           opacity: 1,
           position: "relative",
-          transition: { duration: 1.5, delay: 0.5 }
+          transition: { duration: 1.5, delay: 0 }
          }}
         ><span className="h1 mb-5">ABOUT scuba
           <motion.span
@@ -40,7 +40,7 @@ function About() {
             y: 90,
             opacity: 1,
             position: "relative",
-            transition: { duration: 2.5, delay: 0.5 }
+            transition: { duration: 0.5, delay: 0.5 }
            }}
           >&nbsp;point </motion.span>
           IN&nbsp;TENERIFE</span>
@@ -52,7 +52,7 @@ function About() {
           y: 30,
           opacity: 1,
           position: "relative",
-          transition: { duration: 0.75, delay: 0.75 }
+          transition: { duration: 0.6, delay: 0.6 }
          }}
         >We are the diving school you want to dive with in Tenerife. We have been organizing excursions in Santa Cruz de Tenerife for over 10 years.</motion.p>
         <motion.p
@@ -62,7 +62,7 @@ function About() {
           y: 40,
           opacity: 1,
           position: "relative",
-          transition: { duration: 1, delay: 1 }
+          transition: { duration: 0.7, delay: 0.7 }
          }}
         >
         </motion.p>
@@ -73,7 +73,7 @@ function About() {
           y: 40,
           opacity: 1,
           position: "relative",
-          transition: { duration: 1.25, delay: 1.25 }
+          transition: { duration: 0.8, delay: 0.8 }
          }}
         >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis sem ornare, imperdiet ante a, aliquet risus. Donec velit est, congue vel mauris ut, mattis tristique ipsum tristique.
         </motion.p>
@@ -84,7 +84,7 @@ function About() {
           y: 40,
           opacity: 1,
           position: "relative",
-          transition: { duration: 1.5, delay: 1.5 }
+          transition: { duration: 0.9, delay: 0.9 }
          }}
         >
          Suspendisse ac sem aliquam, imperdiet justo non, elementum nibh. Fusce fringilla ipsum eu purus ornare blandit. Cras pharetra purus tortor, sit amet efficitur tellus mattis eu. Maecenas lobortis.
@@ -97,7 +97,7 @@ function About() {
           y: 40,
           opacity: 1,
           position: "relative",
-          transition: { duration: 2.25, delay: 2.25 }
+          transition: { duration: 1, delay: 1 }
          }}
         >
          <br />
@@ -110,7 +110,7 @@ function About() {
           y: 100,
           opacity: 1,
           position: "relative",
-          transition: { duration: 2.5, delay: 2.5 }
+          transition: { duration: 1.1, delay: 1.1 }
          }}
         ><span className="h1 mb-5">MEET THE
           <motion.span
@@ -119,7 +119,7 @@ function About() {
 
             opacity: 1,
             position: "relative",
-            transition: { duration: 2.5, delay: 0.5 }
+            transition: { duration: 1.2, delay: 1.1 }
            }}
           > TEAM</motion.span>
          </span>
@@ -131,7 +131,7 @@ function About() {
           y: 80,
           opacity: 1,
           position: "relative",
-          transition: { duration: 2.75, delay: 2.75 }
+          transition: { duration: 1.2, delay: 1.1 }
          }}
         >
          <img src={team1} className='w-100 img-fluid' alt="Gonza, instructor" />
@@ -145,7 +145,7 @@ function About() {
           y: 80,
           opacity: 1,
           position: "relative",
-          transition: { duration: 3, delay: 3 }
+          transition: { duration: 1.2, delay: 1.1 }
          }}
         >
          <img src={team2} className='w-100 img-fluid' alt="Gonza, instructor" />
@@ -159,19 +159,15 @@ function About() {
           y: 80,
           opacity: 1,
           position: "relative",
-          transition: { duration: 3.25, delay: 3.25 }
+          transition: { duration: 1.2, delay: 1.1 }
          }}
         >
          <img src={team3} className='w-100 img-fluid' alt="Gonza, instructor" />
          <h2 className='text-center pt-4'>Eliana</h2>
          <p className='text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis sem ornare.</p>
         </motion.div>
-
-
-
        </Row>
       </Container>
-
      </div>
     </Row>
    </Container>

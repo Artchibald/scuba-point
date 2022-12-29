@@ -1,8 +1,19 @@
-import React from 'react'
+import React from 'react';
 import { motion } from 'framer-motion'
 import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import InnerGallery from './InnerGallery';
+import BookingsModal from './BookingsModal';
+import fun from './../img/packages/fun.png';
+import master from './../img/packages/master.png';
+import open from './../img/packages/open.png';
+import rescue from './../img/packages/rescue.png';
+import snorkle from './../img/packages/snorkle.png';
+import trial from './../img/packages/try.png';
+
 function Packages() {
+
  return (
   <motion.div
    className="wrapper"
@@ -10,57 +21,109 @@ function Packages() {
    animate={{ width: "100%" }}
    exit={{ transform: "translate(100%, 0)", transition: { duration: 0.5 } }}
   >
-   <div>
+   <div className="col-12 col-xl-8 offset-xl-2">
     <Container>
-     <motion.h2
-      className="header"
-      initial={{ opacity: 0 }}
-      animate={{
-       y: -20,
-       opacity: 1,
-       position: "relative",
-       transition: { duration: 0.5 }
-      }}
-     >This is the Packages page</motion.h2>
-     <motion.p
-      className="header"
-      initial={{ opacity: 0 }}
-      animate={{
-       y: 20,
-       opacity: 1,
-       position: "relative",
-       transition: { duration: 0.5, delay: 0.5 }
-      }}
-     >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis sem ornare, imperdiet ante a, aliquet risus. Donec velit est, congue vel mauris ut, mattis tristique ipsum. Vestibulum commodo faucibus iaculis. Donec pellentesque, dolor sed pretium hendrerit, tortor odio varius sapien, non lobortis metus metus nec ipsum. Duis tempor ut sem vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur mauris arcu, non hendrerit lorem faucibus eu.
-     </motion.p>
-     <motion.p
-      className="header"
-      initial={{ opacity: 0 }}
-      animate={{
-       y: 20,
-       opacity: 1,
-       position: "relative",
-       transition: { duration: 0.5, delay: 1 }
-      }}
-     >
-      Suspendisse ac sem aliquam, imperdiet justo non, elementum nibh. Fusce fringilla ipsum eu purus ornare blandit. Cras pharetra purus tortor, sit amet efficitur tellus mattis eu. Maecenas lobortis imperdiet augue. Phasellus sed aliquet augue. Phasellus leo risus, consectetur a facilisis eu, laoreet at orci. Suspendisse facilisis nisi quis porta tempor. Nullam felis diam, lacinia in pretium lobortis, ornare vel felis. Mauris massa est, porttitor eu pulvinar vitae, volutpat eget lectus. Praesent a egestas purus. Donec rhoncus volutpat lacus nec luctus. In hac habitasse platea dictumst. In nulla mauris, sollicitudin sed velit eu, tristique vehicula enim.
+     <Row>
 
-      Phasellus dignissim efficitur consequat. Donec porta tortor non rhoncus cursus. Aenean sed lectus malesuada, tristique sapien mollis, lobortis nunc. Integer eget cursus risus. Quisque ac nisl ullamcorper, fringilla sapien ac, elementum quam. Donec pretium libero orci, id luctus dui vulputate id. Nulla eget sapien mattis, egestas felis eu, volutpat ligula. Mauris accumsan ut nisi vitae facilisis. Nulla finibus orci eu neque dictum, non convallis lorem aliquam. Sed at ante orci. Aenean sapien libero, elementum sed scelerisque at, accumsan ut lorem.
+      <motion.h1
+       className='col-xl-9'
+       initial={{ opacity: 0 }}
+       animate={{
+        y: 20,
+        opacity: 1,
+        position: "relative",
+        transition: { duration: 1, delay: 0 }
+       }}
+      >Checkout our awesome SCUBa
+       <motion.span
+        initial={{ opacity: 0 }}
+        animate={{
 
-      Ut at magna est. Mauris viverra blandit quam eget dapibus. Etiam aliquet enim et risus eleifend, non auctor leo posuere. Phasellus blandit porttitor faucibus. Duis in rutrum lectus. Donec ac odio sed justo lobortis interdum. Phasellus feugiat nulla tortor, eu venenatis turpis suscipit sit amet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam tempor, neque nec pretium pulvinar, nulla neque vestibulum dolor, in pulvinar nunc diam et turpis. Nulla dapibus sem et enim eleifend posuere.
+         opacity: 1,
+         position: "relative",
+         transition: { duration: 0.2, delay: 0.2 }
+        }}
+       >&nbsp;POINT </motion.span>
+       PACKAGES</motion.h1>
+      <motion.p
+       className="col-xl-9 mb-5"
+       initial={{ opacity: 0 }}
+       animate={{
+        y: 20,
+        opacity: 1,
+        position: "relative",
+        transition: { duration: 0.3, delay: 0.3 }
+       }}
+      >
+       We have a variety of different adventure packages to try! There are fun times to be had for all levels and ages. For more information on packages, please get in touch.
+      </motion.p>
+      <motion.div
+       className='col-12 col-xl-12 mb-5'
+       initial={{ opacity: 0 }}
+       animate={{
+        y: -20,
+        opacity: 1,
+        position: "relative",
+        transition: { duration: 0.4, delay: 0.4 }
+       }}
+      >
+       <br />
+       <BookingsModal />
+      </motion.div>
+      <motion.div
+       className='col-12 col-xl-12'
+       initial={{ opacity: 0 }}
+       animate={{
+        y: -20,
+        opacity: 1,
+        position: "relative",
+        transition: { duration: 0.4, delay: 0.4 }
+       }}
+      >
+       <Container>
+        <Row>
+         <div className="col-md-4 mb-4 p-3">
+          <img className="img-fluid w-100 px-5" src={trial} alt="Scuba Point Packages" />
+          <h2 className="text-center pt-4">TRIAL DIVE</h2>
+          <p className="text-center">Check out this dive which is for beginners. It is really awesome and bogus.</p>
+          <h3 className="text-center">E80.00</h3>
+         </div>
+         <div className="col-md-4 mb-4 p-3">
+          <img className="img-fluid w-100 px-5" src={snorkle} alt="Scuba Point Packages" />
+          <h2 className="text-center pt-4">SNORKLING</h2>
+          <p className="text-center">Check out this dive which is for beginners. It is really awesome and bogus.</p>
+          <h3 className="text-center">E50.00</h3>
+         </div>
+         <div className="col-md-4 mb-4 p-3">
+          <img className="img-fluid w-100 px-5" src={fun} alt="Scuba Point Packages" />
+          <h2 className="text-center pt-4">FUN DIVE</h2>
+          <p className="text-center">Check out this dive which is for beginners. It is really awesome and bogus.</p>
+          <h3 className="text-center">E100.00</h3>
+         </div>
+         <div className="col-md-4 mb-4 p-3">
+          <img className="img-fluid w-100 px-5" src={open} alt="Scuba Point Packages" />
+          <h2 className="text-center pt-4">OPEN WATER</h2>
+          <p className="text-center">Check out this dive which is for beginners. It is really awesome and bogus.</p>
+          <h3 className="text-center">E400.00</h3>
+         </div>
+         <div className="col-md-4 mb-4 p-3">
+          <img className="img-fluid w-100 px-5" src={rescue} alt="Scuba Point Packages" />
+          <h2 className="text-center pt-4">PADI RESCUE</h2>
+          <p className="text-center">Check out this dive which is for beginners. It is really awesome and bogus.</p>
+          <h3 className="text-center">E250.00</h3>
+         </div>
+         <div className="col-md-4 mb-4 p-3">
+          <img className="img-fluid w-100 px-5" src={master} alt="Scuba Point Packages" />
+          <h2 className="text-center pt-4">PADI MASTER</h2>
+          <p className="text-center">Check out this dive which is for beginners. It is really awesome and bogus.</p>
+          <h3 className="text-center">E500.00</h3>
+         </div>
+        </Row>
+       </Container>
 
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis sem ornare, imperdiet ante a, aliquet risus. Donec velit est, congue vel mauris ut, mattis tristique ipsum. Vestibulum commodo faucibus iaculis. Donec pellentesque, dolor sed pretium hendrerit, tortor odio varius sapien, non lobortis metus metus nec ipsum. Duis tempor ut sem vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur mauris arcu, non hendrerit lorem faucibus eu.
-
-      Suspendisse ac sem aliquam, imperdiet justo non, elementum nibh. Fusce fringilla ipsum eu purus ornare blandit. Cras pharetra purus tortor, sit amet efficitur tellus mattis eu. Maecenas lobortis imperdiet augue. Phasellus sed aliquet augue. Phasellus leo risus, consectetur a facilisis eu, laoreet at orci. Suspendisse facilisis nisi quis porta tempor. Nullam felis diam, lacinia in pretium lobortis, ornare vel felis. Mauris massa est, porttitor eu pulvinar vitae, volutpat eget lectus. Praesent a egestas purus. Donec rhoncus volutpat lacus nec luctus. In hac habitasse platea dictumst. In nulla mauris, sollicitudin sed velit eu, tristique vehicula enim.
-
-      Phasellus dignissim efficitur consequat. Donec porta tortor non rhoncus cursus. Aenean sed lectus malesuada, tristique sapien mollis, lobortis nunc. Integer eget cursus risus. Quisque ac nisl ullamcorper, fringilla sapien ac, elementum quam. Donec pretium libero orci, id luctus dui vulputate id. Nulla eget sapien mattis, egestas felis eu, volutpat ligula. Mauris accumsan ut nisi vitae facilisis. Nulla finibus orci eu neque dictum, non convallis lorem aliquam. Sed at ante orci. Aenean sapien libero, elementum sed scelerisque at, accumsan ut lorem.
-
-      Ut at magna est. Mauris viverra blandit quam eget dapibus. Etiam aliquet enim et risus eleifend, non auctor leo posuere. Phasellus blandit porttitor faucibus. Duis in rutrum lectus. Donec ac odio sed justo lobortis interdum. Phasellus feugiat nulla tortor, eu venenatis turpis suscipit sit amet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam tempor, neque nec pretium pulvinar, nulla neque vestibulum dolor, in pulvinar nunc diam et turpis. Nulla dapibus sem et enim eleifend posuere.
-
-     </motion.p>
+      </motion.div >
+     </Row>
     </Container>
-
    </div>
   </motion.div >
  )

@@ -16,9 +16,9 @@ function Contact() {
    animate={{ width: "100%" }}
    exit={{ transform: "translate(100%, 0)", transition: { duration: 0.5 } }}
   >
-   <Container>
+   <Container className="mb-5 pb-5">
     <Row>
-     <div className='col-xl-5'>
+     <div className='col-xl-5 mb-5'>
       <motion.h1
        className='col-xl-12'
        initial={{ opacity: 0 }}
@@ -26,7 +26,7 @@ function Contact() {
         y: 20,
         opacity: 1,
         position: "relative",
-        transition: { duration: 0.5, delay: 0.5 }
+        transition: { duration: 1.5, delay: 0.5 }
        }}
       >CONTACT <br />SCUBa
        <motion.span
@@ -35,11 +35,22 @@ function Contact() {
 
          opacity: 1,
          position: "relative",
-         transition: { duration: 0.75, delay: 0.75 }
+         transition: { duration: 0.7, delay: 0.1 }
         }}
        >&nbsp;point </motion.span>
       </motion.h1>
-
+      <motion.p
+       className="col-xl-8 special_p"
+       initial={{ opacity: 0 }}
+       animate={{
+        y: 20,
+        opacity: 1,
+        position: "relative",
+        transition: { duration: 0.8, delay: 0.2 }
+       }}
+      >
+       WE ARE BASED IN LOS CRISTIANOS, SOUTH TENERIFE.
+      </motion.p>
       <motion.p
        className="col-xl-8 mb-5"
        initial={{ opacity: 0 }}
@@ -47,11 +58,12 @@ function Contact() {
         y: 20,
         opacity: 1,
         position: "relative",
-        transition: { duration: 1, delay: 1 }
+        transition: { duration: 0.8, delay: 0.2 }
        }}
       >
-       You can get in touch with us using the mobile numbers below, we use  Whatsapp too. You can also use the button to send us a message by email.
+       You can get in touch with us using the mobile numbers attached, we use  Whatsapp too. You can also use the button to send us a message by email if you want.
       </motion.p>
+
       <motion.div
        className='col-12 col-xl-7'
        initial={{ opacity: 0 }}
@@ -59,7 +71,7 @@ function Contact() {
         y: -20,
         opacity: 1,
         position: "relative",
-        transition: { duration: 1.25, delay: 1.25 }
+        transition: { duration: 0.5, delay: 0.3 }
        }}
       >
        <br />
@@ -68,54 +80,51 @@ function Contact() {
 
      </div>
      <div className='col-xl-7'>
-      <motion.div
-       className='col-xl-12'
-       initial={{ opacity: 0 }}
-       animate={{
-        y: 20,
-        opacity: 1,
-        position: "relative",
-        transition: { duration: 2.5, delay: 2.5 }
-       }}
-      >
-       <Container><Row>
-        <div className='col-3'><img src={team2} className='w-100 img-fluid mb-5' alt="Gonza, instructor contact number" /></div>
-        <div className='col-9'>
-         <motion.h2
-          className='col-xl-12'
+      <div className='col-xl-12'>
+       <Container>
+        <Row>
+         <motion.div
+          className='col-3'
           initial={{ opacity: 0 }}
           animate={{
-           y: 40,
+           y: -10,
            opacity: 1,
            position: "relative",
-           transition: { duration: 1.5, delay: 1.5 }
+           transition: { duration: 0.6, delay: 0.3 }
           }}
-         >GONZA<br />
-          <motion.span
+         >
+          <img src={team2} className='w-100 img-fluid mb-5' alt="Gonza, instructor contact number" />
+         </motion.div>
+         <div className='col-9'>
+          <motion.h2
+           className='col-xl-12'
            initial={{ opacity: 0 }}
            animate={{
-
+            y: 40,
             opacity: 1,
             position: "relative",
-            transition: { duration: 1.75, delay: 1.75 }
+            transition: { duration: 0.7, delay: 0.6 }
            }}
-          > <img width="30px" className="mr-2" src={whatsapp} alt="Scuba Point Whatsapp" />&nbsp;+34 633 04 48 85 </motion.span>
-         </motion.h2></div>
-       </Row></Container>
-      </motion.div>
+          >GONZA<br />
+           <span> <img width="30px" className="mr-2" src={whatsapp} alt="Scuba Point Whatsapp" />
+            &nbsp;+34 633 04 48 85 </span>
+          </motion.h2></div>
+        </Row></Container>
+      </div>
 
-      <motion.div
+      <div
        className='col-xl-12'
-       initial={{ opacity: 0 }}
-       animate={{
-        y: 20,
-        opacity: 1,
-        position: "relative",
-        transition: { duration: 2.5, delay: 2.5 }
-       }}
       >
        <Container><Row>
-        <div className='col-3'><img src={team1} className='w-100 img-fluid' alt="Gonza, instructor contact number" /></div>
+        <motion.div className='col-3'
+         initial={{ opacity: 0 }}
+         animate={{
+          y: -10,
+          opacity: 1,
+          position: "relative",
+          transition: { duration: 0.9, delay: 1.2 }
+         }}
+        ><img src={team1} className='w-100 img-fluid' alt="Gonza, instructor contact number" /></motion.div>
         <div className='col-9'>
          <motion.h2
           className='col-xl-12'
@@ -124,28 +133,18 @@ function Contact() {
            y: 40,
            opacity: 1,
            position: "relative",
-           transition: { duration: 1.5, delay: 1.5 }
+           transition: { duration: 0.6, delay: 0.9 }
           }}
          >MARCOS<br />
-          <motion.span
-           initial={{ opacity: 0 }}
-           animate={{
-
-            opacity: 1,
-            position: "relative",
-            transition: { duration: 1.75, delay: 1.75 }
-           }}
-          > <img width="30px" className="mr-2" src={whatsapp} alt="Scuba Point Whatsapp" />&nbsp;+34 633 04 48 85 </motion.span>
+          <span><img width="30px" className="mr-2" src={whatsapp} alt="Scuba Point Whatsapp" />
+           &nbsp;+34 633 04 48 85 </span>
          </motion.h2></div>
        </Row></Container>
-      </motion.div>
-
-
-
+      </div>
      </div>
     </Row>
    </Container>
-
+   <br />
   </motion.div >
  )
 }

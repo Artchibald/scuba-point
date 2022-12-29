@@ -24,7 +24,7 @@ function Gallery() {
        y: 20,
        opacity: 1,
        position: "relative",
-       transition: { duration: 0.5, delay: 0.5 }
+       transition: { duration: 1, delay: 0 }
       }}
      >WELCOME TO THE SCUBa
       <motion.span
@@ -33,7 +33,7 @@ function Gallery() {
 
         opacity: 1,
         position: "relative",
-        transition: { duration: 0.75, delay: 0.75 }
+        transition: { duration: 0.2, delay: 0.2 }
        }}
       >&nbsp;point </motion.span>
       GALLERY</motion.h1>
@@ -44,7 +44,7 @@ function Gallery() {
        y: 20,
        opacity: 1,
        position: "relative",
-       transition: { duration: 1.5, delay: 1.5 }
+       transition: { duration: 0.3, delay: 0.3 }
       }}
      >
       Please feel free to take a second to check out our gallery of previous trips by scrolling down. If you have any questions, please feel free to contact us at any time.
@@ -56,7 +56,7 @@ function Gallery() {
        y: -20,
        opacity: 1,
        position: "relative",
-       transition: { duration: 1.25, delay: 1.25 }
+       transition: { duration: 0.4, delay: 0.4 }
       }}
      >
       <br />
@@ -65,7 +65,6 @@ function Gallery() {
     </Row>
    </Container>
    <InnerGallery />
-
   </motion.div >
  )
 }
