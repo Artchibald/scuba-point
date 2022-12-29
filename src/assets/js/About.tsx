@@ -37,10 +37,9 @@ function About() {
           <motion.span
            initial={{ opacity: 0 }}
            animate={{
-            y: 90,
             opacity: 1,
             position: "relative",
-            transition: { duration: 0.5, delay: 0.5 }
+            transition: { duration: 2, delay: 1 }
            }}
           >&nbsp;point </motion.span>
           IN&nbsp;TENERIFE</span>

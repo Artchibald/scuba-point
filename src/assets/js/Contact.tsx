@@ -11,7 +11,7 @@ function Contact() {
 
  return (
   <motion.div
-   className="wrapper"
+   className="wrapper pb-5"
    initial={{ width: "0%" }}
    animate={{ width: "100%" }}
    exit={{ transform: "translate(100%, 0)", transition: { duration: 0.5 } }}
@@ -28,16 +28,17 @@ function Contact() {
         position: "relative",
         transition: { duration: 1.5, delay: 0.5 }
        }}
-      >CONTACT <br />SCUBa
-       <motion.span
-        initial={{ opacity: 0 }}
-        animate={{
+      > <span className="h1">CONTACT <br />SCUBa
+        <motion.span
+         initial={{ opacity: 0 }}
+         animate={{
 
-         opacity: 1,
-         position: "relative",
-         transition: { duration: 0.7, delay: 0.1 }
-        }}
-       >&nbsp;point </motion.span>
+          opacity: 1,
+          position: "relative",
+          transition: { duration: 2, delay: 1 }
+         }}
+        >&nbsp;point </motion.span>
+       </span>
       </motion.h1>
       <motion.p
        className="col-xl-8 special_p"
@@ -61,7 +62,7 @@ function Contact() {
         transition: { duration: 0.8, delay: 0.2 }
        }}
       >
-       You can get in touch with us using the mobile numbers attached, we use  Whatsapp too. You can also use the button to send us a message by email if you want.
+       You can get in touch with using the mobile telephone numbers attached, we use  Whatsapp too. You can also use the button to send us a message by email.
       </motion.p>
 
       <motion.div
@@ -84,7 +85,7 @@ function Contact() {
        <Container>
         <Row>
          <motion.div
-          className='col-4 col-sm-3'
+          className='col-5 col-sm-3'
           initial={{ opacity: 0 }}
           animate={{
            y: -10,
@@ -95,7 +96,7 @@ function Contact() {
          >
           <img src={team2} className='w-100 img-fluid mb-5' alt="Gonza, instructor contact number" />
          </motion.div>
-         <div className='col-8 col-sm-9'>
+         <div className='col-7 col-sm-9'>
           <motion.h2
            className='col-xl-12'
            initial={{ opacity: 0 }}
@@ -116,7 +117,7 @@ function Contact() {
        className='col-xl-12'
       >
        <Container><Row>
-        <motion.div className='col-4 col-sm-3'
+        <motion.div className='col-5 col-sm-3'
          initial={{ opacity: 0 }}
          animate={{
           y: -10,
@@ -126,7 +127,7 @@ function Contact() {
          }}
         ><img src={team1} className='w-100 img-fluid' alt="Gonza, instructor contact number" />
         </motion.div>
-        <div className='col-8 col-sm-9'>
+        <div className='col-7 col-sm-9'>
          <motion.h2
           className='col-xl-12'
           initial={{ opacity: 0 }}
@@ -145,7 +146,6 @@ function Contact() {
      </div>
     </Row>
    </Container>
-   <br />
   </motion.div >
  )
 }

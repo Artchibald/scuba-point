@@ -142,8 +142,8 @@ header {
             background: black;
         }
         .show-cross .burger {
-            border: white;
-            background: white;
+            border: #d8feff;
+            background: #d8feff;
         }
         &:hover {
             outline: 0;
@@ -157,7 +157,7 @@ header {
         height: 100vh;
         top: 0;
         left: 0px;
-        background-color: white;
+        background-color: #d8feff;
         border-right: 1px solid black;
         @media (min-width: 660px) {
             width: 260px;

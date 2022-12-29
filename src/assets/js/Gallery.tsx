@@ -26,17 +26,18 @@ function Gallery() {
        position: "relative",
        transition: { duration: 1, delay: 0 }
       }}
-     >WELCOME TO THE SCUBa
-      <motion.span
-       initial={{ opacity: 0 }}
-       animate={{
+     >
+      <span className="h1">THE SCUBa
+       <motion.span
+        initial={{ opacity: 0 }}
+        animate={{
 
-        opacity: 1,
-        position: "relative",
-        transition: { duration: 0.2, delay: 0.2 }
-       }}
-      >&nbsp;point </motion.span>
-      GALLERY</motion.h1>
+         opacity: 1,
+         position: "relative",
+         transition: { duration: 2, delay: 1 }
+        }}
+       >&nbsp;point </motion.span>
+       PHOTO GALLERY</span></motion.h1>
      <motion.p
       className="col-xl-6 mb-5"
       initial={{ opacity: 0 }}

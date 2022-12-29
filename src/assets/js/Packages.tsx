@@ -42,7 +42,7 @@ function Packages() {
 
           opacity: 1,
           position: "relative",
-          transition: { duration: 0.2, delay: 0.2 }
+          transition: { duration: 2, delay: 1 }
          }}
         >&nbsp;POINT </motion.span>
         DIVING PACKAGES</span></motion.h1>
