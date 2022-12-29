@@ -89,7 +89,7 @@ function About() {
          }}
         >
 
-         We have excursions to caves, sunken ships wrecks, spots exploding with wild life, and much more. We also offer diving excursions to the island of La Gomera, where you can see the famous whale sharks. We look forward to diving with you! We provide all equipment, transport and briefings for all levels too.
+         We have excursions to caves, sunken ship wrecks, spots exploding with wild life, and much more. We also offer diving excursions to the island of La Gomera, where you can see the famous whale sharks. We look forward to diving with you! We provide all equipment, transport and briefings for all levels too.
         </motion.p>
 
         <motion.div

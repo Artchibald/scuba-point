@@ -7,6 +7,7 @@ import BookingsModal from "./BookingsModal"
 import whatsapp from './../img/icons/whatsapp.svg';
 import team1 from './../img/team1.png';
 import team2 from './../img/team2.png';
+import team3 from './../img/team3.png';
 function Contact() {
 
  return (
@@ -62,7 +63,7 @@ function Contact() {
         transition: { duration: 0.8, delay: 0.2 }
        }}
       >
-       You can get in touch with using the mobile telephone numbers attached, we use  Whatsapp too. You can also use the button to send us a message by email.
+       You can get in touch using the mobile telephone numbers attached, we use  Whatsapp too. You can also use the button to send us a message by email if you fish.
       </motion.p>
 
       <motion.div
@@ -114,7 +115,7 @@ function Contact() {
       </div>
 
       <div
-       className='col-xl-12'
+       className='col-xl-12 mb-5'
       >
        <Container><Row>
         <motion.div className='col-5 col-sm-3'
@@ -138,6 +139,37 @@ function Contact() {
            transition: { duration: 0.6, delay: 0.9 }
           }}
          >MARCOS<br />
+          <span><img width="30px" className="mr-2" src={whatsapp} alt="Scuba Point Whatsapp" />
+           &nbsp;+34 633 04 48 85 </span>
+         </motion.h2></div>
+       </Row></Container>
+      </div>
+
+      <div
+       className='col-xl-12'
+      >
+       <Container><Row>
+        <motion.div className='col-5 col-sm-3'
+         initial={{ opacity: 0 }}
+         animate={{
+          y: -10,
+          opacity: 1,
+          position: "relative",
+          transition: { duration: 0.6, delay: 1.2 }
+         }}
+        ><img src={team3} className='w-100 img-fluid' alt="Gonza, instructor contact number" />
+        </motion.div>
+        <div className='col-7 col-sm-9'>
+         <motion.h2
+          className='col-xl-12'
+          initial={{ opacity: 0 }}
+          animate={{
+           y: 40,
+           opacity: 1,
+           position: "relative",
+           transition: { duration: 0.6, delay: 1.2 }
+          }}
+         >ELIANA<br />
           <span><img width="30px" className="mr-2" src={whatsapp} alt="Scuba Point Whatsapp" />
            &nbsp;+34 633 04 48 85 </span>
          </motion.h2></div>
