@@ -53,7 +53,7 @@ function About() {
           position: "relative",
           transition: { duration: 0.6, delay: 0.6 }
          }}
-        >We are the diving school you want to dive with in Tenerife. We have been organizing excursions in Santa Cruz de Tenerife for over 10 years.</motion.p>
+        >We would love to welcome you to our diving school in Tenerife. We have been organizing excursions on the island of Santa Cruz de Tenerife for over 10 years.</motion.p>
         <motion.p
          className='col-12 col-xl-3 special_p'
          initial={{ opacity: 0 }}
@@ -74,7 +74,9 @@ function About() {
           position: "relative",
           transition: { duration: 0.8, delay: 0.8 }
          }}
-        >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis sem ornare, imperdiet ante a, aliquet risus. Donec velit est, congue vel mauris ut, mattis tristique ipsum tristique.
+        >
+
+         With us, you will have the opportunity to discover the underwater world of Tenerife. We offer a wide range of diving courses, from beginner to professional. We also offer diving excursions for all levels of experience. We are a PADI 5 Star Dive Center and we are proud to be able to offer you these experiences in Tenerife.
         </motion.p>
         <motion.p
          className='col-12 col-xl-6'
@@ -86,7 +88,8 @@ function About() {
           transition: { duration: 0.9, delay: 0.9 }
          }}
         >
-         Suspendisse ac sem aliquam, imperdiet justo non, elementum nibh. Fusce fringilla ipsum eu purus ornare blandit. Cras pharetra purus tortor, sit amet efficitur tellus mattis eu. Maecenas lobortis.
+
+         We have excursions to caves, sunken ships wrecks, spots exploding with wild life, and much more. We also offer diving excursions to the island of La Gomera, where you can see the famous whale sharks. We look forward to diving with you! We provide all equipment, transport and briefings for all levels too.
         </motion.p>
 
         <motion.div
@@ -135,7 +138,7 @@ function About() {
         >
          <img src={team1} className='w-100 img-fluid' alt="Gonza, instructor" />
          <h2 className='text-center pt-4'>Marcos</h2>
-         <p className='text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis sem ornare.</p>
+         <p className='text-center'>Marcos is a founder and instructor at Scuba Point, he has 12 years of diving experience and loves seafood.</p>
         </motion.div>
         <motion.div
          className='col-12 col-md-4 pt-5 px-5'
@@ -149,7 +152,7 @@ function About() {
         >
          <img src={team2} className='w-100 img-fluid' alt="Gonza, instructor" />
          <h2 className='text-center pt-4'>Gonza</h2>
-         <p className='text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis sem ornare.</p>
+         <p className='text-center'>Gonza is an Argentinian legend who is passionate about diving, he is excellent at keeping it fun too.</p>
         </motion.div>
         <motion.div
          className='col-12 col-md-4 pt-5 px-5'
@@ -163,7 +166,7 @@ function About() {
         >
          <img src={team3} className='w-100 img-fluid' alt="Gonza, instructor" />
          <h2 className='text-center pt-4'>Eliana</h2>
-         <p className='text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis sem ornare.</p>
+         <p className='text-center'>Eliana is a new member of the team, she loves Tenerife and swimming with rays across the rocks.</p>
         </motion.div>
        </Row>
       </Container>

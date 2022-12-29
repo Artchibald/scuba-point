@@ -95,7 +95,7 @@ function Packages() {
           <img className="img-fluid w-100" src={snorkle} alt="Scuba Point Packages" />
           <div className="sparkle"></div>
           <h2 className="text-center pt-4">SNORKLE<br />TOUR</h2>
-          <p className="text-center">Check out this dive which is for beginners. It is really awesome and bogus.</p>
+          <p className="text-center">Check the scene without getting involved with the technical stuff.</p>
           <Link className="btn btn-outline-dark btn-lg mx-auto w-50 d-block mb-3" to="/contact">BOOK</Link>
           <h4 className="text-center">E50.00</h4>
          </motion.div>
@@ -111,7 +111,7 @@ function Packages() {
           <img className="img-fluid w-100" src={trial} alt="Scuba Point Packages" />
           <div className="sparkle"></div>
           <h2 className="text-center pt-4">TRIAL<br />DIVE</h2>
-          <p className="text-center">Check out this dive which is for beginners. It is really awesome and bogus.</p>
+          <p className="text-center">Try scuba diving for the first time and see if it is your type of cake.</p>
           <Link className="btn btn-outline-dark btn-lg mx-auto w-50 d-block mb-3" to="/contact">BOOK</Link>
           <h4 className="text-center">E80.00</h4>
          </motion.div>
@@ -127,7 +127,7 @@ function Packages() {
           <img className="img-fluid w-100" src={fun} alt="Scuba Point Packages" />
           <div className="sparkle"></div>
           <h2 className="text-center pt-4">FUN<br />DIVE</h2>
-          <p className="text-center">Check out this dive which is for beginners. It is really awesome and bogus.</p>
+          <p className="text-center">A little experience already? We can take you to explore something fun!</p>
           <Link className="btn btn-outline-dark btn-lg mx-auto w-50 d-block mb-3" to="/contact">BOOK</Link>
           <h4 className="text-center">E100.00</h4>
          </motion.div>
@@ -143,7 +143,7 @@ function Packages() {
           <img className="img-fluid w-100" src={open} alt="Scuba Point Packages" />
           <div className="sparkle"></div>
           <h2 className="text-center pt-4">OPEN<br />WATER</h2>
-          <p className="text-center">Check out this dive which is for beginners. It is really awesome and bogus.</p>
+          <p className="text-center">Do the 3 day Open Water course and pass the theory test. Then dive anywhere!</p>
           <Link className="btn btn-outline-dark btn-lg mx-auto w-50 d-block mb-3" to="/contact">BOOK</Link>
           <h4 className="text-center">E400.00</h4>
          </motion.div>
@@ -159,7 +159,7 @@ function Packages() {
           <img className="img-fluid w-100" src={rescue} alt="Scuba Point Packages" />
           <div className="sparkle"></div>
           <h2 className="text-center pt-4">PADI<br />RESCUE</h2>
-          <p className="text-center">Check out this dive which is for beginners. It is really awesome and bogus.</p>
+          <p className="text-center">Learn the intermediate certificate that will teach you about search and rescue.</p>
           <Link className="btn btn-outline-dark btn-lg mx-auto w-50 d-block mb-3" to="/contact">BOOK</Link>
           <h4 className="text-center">E250.00</h4>
          </motion.div>
@@ -175,7 +175,7 @@ function Packages() {
           <img className="img-fluid w-100" src={master} alt="Scuba Point Packages" />
           <div className="sparkle"></div>
           <h2 className="text-center pt-4">PADI<br />MASTER</h2>
-          <p className="text-center">Check out this dive which is for beginners. It is really awesome and bogus.</p>
+          <p className="text-center">Become a scuba diving jedi master and help others use the force while underwater.</p>
           <Link className="btn btn-outline-dark btn-lg mx-auto w-50 d-block mb-3" to="/contact">BOOK</Link>
           <h4 className="text-center">E500.00</h4>
          </motion.div>
