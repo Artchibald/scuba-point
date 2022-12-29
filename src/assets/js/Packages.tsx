@@ -89,26 +89,11 @@ function Packages() {
            y: -20,
            opacity: 1,
            position: "relative",
-           transition: { duration: 0.4, delay: 0.8 }
-          }}
-         >
-          <img className="img-fluid w-100 px-5" src={trial} alt="Scuba Point Packages" />
-          <h2 className="text-center pt-4">TRIAL DIVE</h2>
-          <p className="text-center">Check out this dive which is for beginners. It is really awesome and bogus.</p>
-          <Link className="btn btn-outline-dark btn-lg mx-auto w-50 d-block mb-3" to="/contact">BOOK</Link>
-          <h4 className="text-center">E80.00</h4>
-         </motion.div>
-         <motion.div className="col-sm-6 col-lg-4 mb-4 p-3"
-          initial={{ opacity: 0 }}
-          animate={{
-           y: -20,
-           opacity: 1,
-           position: "relative",
-           transition: { duration: 0.4, delay: 1.2 }
+           transition: { duration: 0.4, delay: 0.4 }
           }}
          >
           <img className="img-fluid w-100 px-5" src={snorkle} alt="Scuba Point Packages" />
-          <h2 className="text-center pt-4">SNORKLING</h2>
+          <h2 className="text-center pt-4">SNORKLE<br />TOUR</h2>
           <p className="text-center">Check out this dive which is for beginners. It is really awesome and bogus.</p>
           <Link className="btn btn-outline-dark btn-lg mx-auto w-50 d-block mb-3" to="/contact">BOOK</Link>
           <h4 className="text-center">E50.00</h4>
@@ -119,11 +104,26 @@ function Packages() {
            y: -20,
            opacity: 1,
            position: "relative",
-           transition: { duration: 0.4, delay: 1.6 }
+           transition: { duration: 0.4, delay: 0.7 }
+          }}
+         >
+          <img className="img-fluid w-100 px-5" src={trial} alt="Scuba Point Packages" />
+          <h2 className="text-center pt-4">TRIAL<br />DIVE</h2>
+          <p className="text-center">Check out this dive which is for beginners. It is really awesome and bogus.</p>
+          <Link className="btn btn-outline-dark btn-lg mx-auto w-50 d-block mb-3" to="/contact">BOOK</Link>
+          <h4 className="text-center">E80.00</h4>
+         </motion.div>
+         <motion.div className="col-sm-6 col-lg-4 mb-4 p-3"
+          initial={{ opacity: 0 }}
+          animate={{
+           y: -20,
+           opacity: 1,
+           position: "relative",
+           transition: { duration: 0.4, delay: 1 }
           }}
          >
           <img className="img-fluid w-100 px-5" src={fun} alt="Scuba Point Packages" />
-          <h2 className="text-center pt-4">FUN DIVE</h2>
+          <h2 className="text-center pt-4">FUN<br />DIVE</h2>
           <p className="text-center">Check out this dive which is for beginners. It is really awesome and bogus.</p>
           <Link className="btn btn-outline-dark btn-lg mx-auto w-50 d-block mb-3" to="/contact">BOOK</Link>
           <h4 className="text-center">E100.00</h4>
@@ -134,11 +134,11 @@ function Packages() {
            y: -20,
            opacity: 1,
            position: "relative",
-           transition: { duration: 0.4, delay: 2 }
+           transition: { duration: 0.4, delay: 1.3 }
           }}
          >
           <img className="img-fluid w-100 px-5" src={open} alt="Scuba Point Packages" />
-          <h2 className="text-center pt-4">OPEN WATER</h2>
+          <h2 className="text-center pt-4">OPEN<br />WATER</h2>
           <p className="text-center">Check out this dive which is for beginners. It is really awesome and bogus.</p>
           <Link className="btn btn-outline-dark btn-lg mx-auto w-50 d-block mb-3" to="/contact">BOOK</Link>
           <h4 className="text-center">E400.00</h4>
@@ -149,11 +149,11 @@ function Packages() {
            y: -20,
            opacity: 1,
            position: "relative",
-           transition: { duration: 0.4, delay: 2.4 }
+           transition: { duration: 0.4, delay: 1.6 }
           }}
          >
           <img className="img-fluid w-100 px-5" src={rescue} alt="Scuba Point Packages" />
-          <h2 className="text-center pt-4">PADI RESCUE</h2>
+          <h2 className="text-center pt-4">PADI<br />RESCUE</h2>
           <p className="text-center">Check out this dive which is for beginners. It is really awesome and bogus.</p>
           <Link className="btn btn-outline-dark btn-lg mx-auto w-50 d-block mb-3" to="/contact">BOOK</Link>
           <h4 className="text-center">E250.00</h4>
@@ -164,11 +164,11 @@ function Packages() {
            y: -20,
            opacity: 1,
            position: "relative",
-           transition: { duration: 0.4, delay: 2.8 }
+           transition: { duration: 0.4, delay: 1.9 }
           }}
          >
           <img className="img-fluid w-100 px-5" src={master} alt="Scuba Point Packages" />
-          <h2 className="text-center pt-4">PADI MASTER</h2>
+          <h2 className="text-center pt-4">PADI<br />MASTER</h2>
           <p className="text-center">Check out this dive which is for beginners. It is really awesome and bogus.</p>
           <Link className="btn btn-outline-dark btn-lg mx-auto w-50 d-block mb-3" to="/contact">BOOK</Link>
           <h4 className="text-center">E500.00</h4>

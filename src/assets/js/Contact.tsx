@@ -84,7 +84,7 @@ function Contact() {
        <Container>
         <Row>
          <motion.div
-          className='col-3'
+          className='col-4 col-sm-3'
           initial={{ opacity: 0 }}
           animate={{
            y: -10,
@@ -95,7 +95,7 @@ function Contact() {
          >
           <img src={team2} className='w-100 img-fluid mb-5' alt="Gonza, instructor contact number" />
          </motion.div>
-         <div className='col-9'>
+         <div className='col-8 col-sm-9'>
           <motion.h2
            className='col-xl-12'
            initial={{ opacity: 0 }}
@@ -116,7 +116,7 @@ function Contact() {
        className='col-xl-12'
       >
        <Container><Row>
-        <motion.div className='col-3'
+        <motion.div className='col-4 col-sm-3'
          initial={{ opacity: 0 }}
          animate={{
           y: -10,
@@ -124,8 +124,9 @@ function Contact() {
           position: "relative",
           transition: { duration: 0.6, delay: 0.9 }
          }}
-        ><img src={team1} className='w-100 img-fluid' alt="Gonza, instructor contact number" /></motion.div>
-        <div className='col-9'>
+        ><img src={team1} className='w-100 img-fluid' alt="Gonza, instructor contact number" />
+        </motion.div>
+        <div className='col-8 col-sm-9'>
          <motion.h2
           className='col-xl-12'
           initial={{ opacity: 0 }}
