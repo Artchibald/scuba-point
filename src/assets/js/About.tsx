@@ -144,7 +144,7 @@ function About() {
           y: 80,
           opacity: 1,
           position: "relative",
-          transition: { duration: 1.2, delay: 1.1 }
+          transition: { duration: 1.2, delay: 1.3 }
          }}
         >
          <img src={team2} className='w-100 img-fluid' alt="Gonza, instructor" />
@@ -158,7 +158,7 @@ function About() {
           y: 80,
           opacity: 1,
           position: "relative",
-          transition: { duration: 1.2, delay: 1.1 }
+          transition: { duration: 1.2, delay: 1.5 }
          }}
         >
          <img src={team3} className='w-100 img-fluid' alt="Gonza, instructor" />

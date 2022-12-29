@@ -14,7 +14,7 @@ function Footer() {
  return (
   <>
    <footer>
-    <Link to="/">
+    <Link to="/#">
      <img className="logo" src={LogoLight} alt="Scuba Point logo" />
     </Link>
 

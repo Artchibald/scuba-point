@@ -20,7 +20,7 @@ function BookingsModal() {
                 keyboard={false}
             >
                 <Modal.Header closeButton>
-                    <Modal.Title><h2 className='mt-3'>BOOK NOW</h2></Modal.Title>
+                    <Modal.Title><h2 className='mt-3'>BOOK NOW 🤿🎉</h2></Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <BookingForm />

@@ -23,16 +23,16 @@ import thumb13 from './../img/gallery/thumb13.jpg';
 import thumb14 from './../img/gallery/thumb14.jpg';
 import thumb15 from './../img/gallery/thumb15.jpg';
 import thumb16 from './../img/gallery/thumb16.jpg';
+import thumb17 from './../img/gallery/thumb17.jpg';
 import thumb18 from './../img/gallery/thumb18.jpg';
 import thumb19 from './../img/gallery/thumb19.jpg';
-import thumb20 from './../img/gallery/thumb20.jpg';
 import thumb21 from './../img/gallery/thumb21.jpg';
 import thumb22 from './../img/gallery/thumb22.jpg';
 import thumb23 from './../img/gallery/thumb23.jpg';
 import thumb24 from './../img/gallery/thumb24.jpg';
-import thumb25 from './../img/gallery/thumb25.jpg';
+import thumb26 from './../img/gallery/thumb26.jpg';
+import thumb27 from './../img/gallery/thumb27.jpg';
 import thumb28 from './../img/gallery/thumb28.jpg';
-import thumb29 from './../img/gallery/thumb29.jpg';
 import thumb30 from './../img/gallery/thumb30.jpg';
 import thumb31 from './../img/gallery/thumb31.jpg';
 import thumb32 from './../img/gallery/thumb32.jpg';
@@ -69,31 +69,6 @@ function InnerGallery() {
      <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb1} alt="Scuba Point Gallery" />
-      </div>
-     </div>
-     <div className="item col-sm-6 col-lg-4 mb-4">
-      <div className="polaroid">
-       <img className="img-fluid" src={thumb2} alt="Scuba Point Gallery" />
-      </div>
-     </div>
-     <div className="item col-sm-6 col-lg-4 mb-4">
-      <div className="polaroid">
-       <img className="img-fluid" src={thumb3} alt="Scuba Point Gallery" />
-      </div>
-     </div>
-     <div className="item col-sm-6 col-lg-4 mb-4">
-      <div className="polaroid">
-       <img className="img-fluid" src={thumb4} alt="Scuba Point Gallery" />
-      </div>
-     </div>
-     <div className="item col-sm-6 col-lg-4 mb-4">
-      <div className="polaroid">
-       <img className="img-fluid" src={thumb5} alt="Scuba Point Gallery" />
-      </div>
-     </div>
-     <div className="item col-sm-6 col-lg-4 mb-4">
-      <div className="polaroid">
-       <img className="img-fluid" src={thumb6} alt="Scuba Point Gallery" />
       </div>
      </div>
      <div className="item col-sm-6 col-lg-4 mb-4">
@@ -173,17 +148,17 @@ function InnerGallery() {
      </div>
      <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
+       <img className="img-fluid" src={thumb17} alt="Scuba Point Gallery" />
+      </div>
+     </div>
+     <div className="item col-sm-6 col-lg-4 mb-4">
+      <div className="polaroid">
        <img className="img-fluid" src={thumb18} alt="Scuba Point Gallery" />
       </div>
      </div>
      <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb19} alt="Scuba Point Gallery" />
-      </div>
-     </div>
-     <div className="item col-sm-6 col-lg-4 mb-4">
-      <div className="polaroid">
-       <img className="img-fluid" src={thumb20} alt="Scuba Point Gallery" />
       </div>
      </div>
      <div className="item col-sm-6 col-lg-4 mb-4">
@@ -206,19 +181,20 @@ function InnerGallery() {
        <img className="img-fluid" src={thumb24} alt="Scuba Point Gallery" />
       </div>
      </div>
+
      <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
-       <img className="img-fluid" src={thumb25} alt="Scuba Point Gallery" />
+       <img className="img-fluid" src={thumb26} alt="Scuba Point Gallery" />
+      </div>
+     </div>
+     <div className="item col-sm-6 col-lg-4 mb-4">
+      <div className="polaroid">
+       <img className="img-fluid" src={thumb27} alt="Scuba Point Gallery" />
       </div>
      </div>
      <div className="item col-sm-6 col-lg-4 mb-4">
       <div className="polaroid">
        <img className="img-fluid" src={thumb28} alt="Scuba Point Gallery" />
-      </div>
-     </div>
-     <div className="item col-sm-6 col-lg-4 mb-4">
-      <div className="polaroid">
-       <img className="img-fluid" src={thumb29} alt="Scuba Point Gallery" />
       </div>
      </div>
      <div className="item col-sm-6 col-lg-4 mb-4">

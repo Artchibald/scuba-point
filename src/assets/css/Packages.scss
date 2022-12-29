@@ -1,0 +1,28 @@
+.sparkle {
+    background-image: url(./../img/sparkle.gif);
+    width: 60px;
+    height: 60px;
+    background-size: 100% auto;
+    display: block;
+    content: '';
+    position: absolute;
+    animation: blinkAnimation 2s linear infinite;
+    animation-delay: 1s;
+    top: 110px;
+    left: 90px;
+}
+
+@keyframes blinkAnimation {
+    0% {
+        visibility: visible;
+        opacity: 0;
+    }
+    70% {
+        visibility: visible;
+        opacity: 0;
+    }
+    100% {
+        visibility: hidden;
+        opacity: 1;
+    }
+}
