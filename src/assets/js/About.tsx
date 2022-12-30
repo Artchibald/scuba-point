@@ -76,7 +76,9 @@ function About() {
          }}
         >
 
-         With us, you will have the opportunity to discover the underwater world of Tenerife. We offer a wide range of diving courses, from beginner to professional. We also offer diving excursions for all levels of experience. We are a PADI 5 Star Dive Center and we are proud to be able to offer you these experiences in Tenerife.
+         With us, you will have the opportunity to discover the underwater world of Tenerife. We provide a wide range of diving courses, from beginner to professional. We also have diving excursions for all levels of experience. We are a PADI 5 Star Dive Center and we are proud to be able to offer you these experiences in Tenerife.
+
+
         </motion.p>
         <motion.p
          className='col-12 col-xl-6'

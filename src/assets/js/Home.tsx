@@ -3,6 +3,7 @@ import Modal from 'react-bootstrap/Modal';
 import BookingForm from "./BookingForm"
 import './../css/Home.scss'
 import { motion } from 'framer-motion'
+import lava_cloud from './../img/lava_cloud.png';
 function Home() {
  const [show, setShow] = useState(false);
  const handleClose = () => setShow(false);
@@ -13,8 +14,9 @@ function Home() {
    initial={{ width: "100%" }}
    animate={{ width: "100%" }}
    exit={{ transform: "translate(100%, 0)", transition: { duration: 0.5 } }}
+
   >
-   <div className='lava_cloud'></div>
+   <div className='lava_cloud' style={{ backgroundImage: `url(${lava_cloud})` }}></div>
    <div className='lava'></div>
    <div className='sun_fire'></div>
    <div className='sun_face'></div>
