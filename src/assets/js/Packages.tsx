@@ -15,6 +15,10 @@ import snorkle from './../img/packages/snorkle.png';
 import trial from './../img/packages/try.png';
 import efr from './../img/packages/efr.png';
 import special from './../img/packages/special.png';
+import accommodation1 from './../img/packages/accommodation1.png';
+import accommodation2 from './../img/packages/accommodation2.png';
+import accommodation3 from './../img/packages/accommodation3.png';
+import accommodation4 from './../img/packages/accommodation4.png';
 import './../css/Packages.scss'
 function Packages() {
 
@@ -342,7 +346,6 @@ function Packages() {
                     <h4 className="text-center">€365.00</h4>
                     <Link className="btn btn-outline-dark btn-lg mx-auto w-75 d-block mb-3" to="/contact">BOOK&nbsp;NOW</Link>
                   </motion.div>
-
                   <motion.div className="col-sm-6 col-lg-4 mb-4 p-3"
                     initial={{ opacity: 0 }}
                     animate={{
@@ -461,8 +464,8 @@ function Packages() {
                   >
                     <img className="img-fluid w-100" src={special} alt="Scuba Point Special dives in Tenerife" />
                     <div className="sparkle"></div>
-                    <h2 className="text-center pt-4">PADI<br />SPECIAL<br />DIVES</h2>
-                    <p className="text-center">Ask us about our special dives: Deep dier, wreck diver, dive vehicle propulsion (DVP).</p>
+                    <h2 className="text-center pt-4">OUR<br />SPECIAL<br />DIVES</h2>
+                    <p className="text-center">Ask about our special dives: Deep diver, wreck diver, dive vehicle propulsion or even Nitrox.</p>
                     <span className="btn btn-outline-dark btn-lg mx-auto w-75 d-block mb-3" onClick={handlePackage9Show}>READ&nbsp;MORE</span>
                     <Modal
                       keyboard={false}
@@ -473,15 +476,134 @@ function Packages() {
                         <Modal.Title><h2 className='mt-3'>SPECIAL DIVES </h2></Modal.Title>
                       </Modal.Header>
                       <Modal.Body>
-                        The PADI Master course in Tenerife is a comprehensive professional program designed for experienced divers who want to take their diving skills to the professional level, with this diploma  you can work in the industry anywhere in the world.
-                        <p className="mt-3"> The course typically lasts 2 weeks and costs 725 euros. During the course, you will learn advanced diving techniques such as dive planning, equipment configuration, and risk management.
+                        Tenerife offers a variety of special dives for divers of all levels. Some of the popular special dives include:
+
+                        <p className="mt-3"> 1. Deep Diver: This course is designed for divers who want to explore the deeper depths of the ocean. It covers the skills and knowledge needed to safely dive to depths of up to 40 meters. During the course, you will learn about the special equipment and techniques required for deep diving, as well as how to manage the additional risks associated with deep diving.
                         </p>
-                        <p>You will also have the opportunity to gain experience in leadership and dive supervision, as well as refining your rescue skills. Upon completion of the course, you will be certified as a PADI Divemaster, the first level of professional certification, allowing you to assist PADI Instructors in training and leading certified divers.  </p>
-                        <p> Tenerife offers great diving locations, crystal clear waters, and a wide variety of marine life, which makes it an ideal place to take the PADI Master course.</p>
+                        <p>2. Wreck Diver: Tenerife is home to several shipwrecks that are popular among divers. The Wreck Diver course teaches divers how to safely explore these wrecks and learn about their history. During the course, you will learn how to navigate and penetrate wrecks, as well as how to handle the additional risks associated with wreck diving.
+                        </p>
+                        <p>3. Dive Vehicle Propulsion (DVP): This course is designed for divers who want to explore the underwater world using a Dive Propulsion Vehicle (DPV). DPV's allow divers to cover more ground and see more marine life, but they also have specific safety rules, the DVP course will teach you the proper use of these vehicles, and the skills required to operate them safely.</p>
+
+                        <p>4. Nitrox Diver: Nitrox is a type of breathing gas that contains a higher percentage of oxygen. It is popular among divers because it can help to reduce the risk of decompression sickness. During the Nitrox Diver course, you will learn about the benefits and risks of using Nitrox, as well as how to properly plan and execute Nitrox dives.</p>
+                        <p>All these special dives will be conducted by certified PADI instructors, and they are held in safe and controlled environments. The courses will provide you with the necessary skills and knowledge to safely explore the underwater world and enjoy more advanced types of diving.</p>
                         <Link className="btn btn-outline-dark btn-lg d-block mb-3" to="/contact">BOOK NOW</Link>
                       </Modal.Body>
                     </Modal>
-                    <h4 className="text-center">€725.00</h4>
+                    <h4 className="text-center">€ ??</h4>
+                    <Link className="btn btn-outline-dark btn-lg mx-auto w-75 d-block mb-3" to="/contact">BOOK&nbsp;NOW</Link>
+                  </motion.div>
+                  <motion.h1
+                    className='col-xl-9 mt-5'
+                    initial={{ opacity: 0 }}
+                    animate={{
+                      y: 20,
+                      opacity: 1,
+                      position: "relative",
+                      transition: { duration: 1, delay: 0 }
+                    }}>
+                    <span className="h1 mb-5">
+                      SCUBa
+                      <motion.span
+                        initial={{ opacity: 0 }}
+                        animate={{
+
+                          opacity: 1,
+                          position: "relative",
+                          transition: { duration: 2, delay: 1 }
+                        }}
+                      >&nbsp;POINT </motion.span>
+                      ACCOMODATION DEALS</span></motion.h1>
+                  <motion.p
+                    className="col-xl-9 mb-5"
+                    initial={{ opacity: 0 }}
+                    animate={{
+                      y: 20,
+                      opacity: 1,
+                      position: "relative",
+                      transition: { duration: 0.3, delay: 0.3 }
+                    }}
+                  >
+                    We have partnered up with the <a href="https://www.endlesssummertenerife.com/">Endless Summer hostel</a> to bring you some fantastic packages and deals.
+                  </motion.p>
+                  <motion.div
+                    className='col-12 col-xl-12 mb-2'
+                    initial={{ opacity: 0 }}
+                    animate={{
+                      y: -20,
+                      opacity: 1,
+                      position: "relative",
+                      transition: { duration: 0.4, delay: 0.4 }
+                    }}
+                  >
+                    <br />
+                    <BookingsModal />
+                  </motion.div>
+                  <motion.div className="col-sm-6 col-lg-6 mb-4 p-3"
+                    initial={{ opacity: 0 }}
+                    animate={{
+                      y: 20,
+                      opacity: 1,
+                      position: "relative",
+                      transition: { duration: 0.4, delay: 1.9 }
+                    }}
+                  >
+                    <img className="img-fluid w-100" src={accommodation1} alt="Scuba Point Special dives in Tenerife" />
+                    <div className="sparkle"></div>
+                    <h2 className="text-center pt-4">Hostel pack 1</h2>
+                    <p className="text-center">Includes 7 nights of accommodation in the <a href="https://www.endlesssummertenerife.com/">Endless Summer hostel</a>  with breakfast included + Open Water Dive Course + Pick up / Drop Off</p>
+
+                    <h4 className="text-center">€ 599.00</h4>
+                    <Link className="btn btn-outline-dark btn-lg mx-auto w-75 d-block mb-3" to="/contact">BOOK&nbsp;NOW</Link>
+                  </motion.div>
+                  <motion.div className="col-sm-6 col-lg-6 mb-4 p-3"
+                    initial={{ opacity: 0 }}
+                    animate={{
+                      y: 20,
+                      opacity: 1,
+                      position: "relative",
+                      transition: { duration: 0.4, delay: 1.9 }
+                    }}
+                  >
+                    <img className="img-fluid w-100" src={accommodation2} alt="Scuba Point Special dives in Tenerife" />
+                    <div className="sparkle"></div>
+                    <h2 className="text-center pt-4">Hostel pack 2</h2>
+                    <p className="text-center">Includes 7 nights of accommodation in the <a href="https://www.endlesssummertenerife.com/">Endless Summer hostel</a>  with breakfast included + Open Water Dive Course + Advanced Course + Pick up/Drop Off</p>
+
+                    <h4 className="text-center">€ 859.00</h4>
+                    <Link className="btn btn-outline-dark btn-lg mx-auto w-75 d-block mb-3" to="/contact">BOOK&nbsp;NOW</Link>
+                  </motion.div>
+                  <motion.div className="col-sm-6 col-lg-6 mb-4 p-3"
+                    initial={{ opacity: 0 }}
+                    animate={{
+                      y: 20,
+                      opacity: 1,
+                      position: "relative",
+                      transition: { duration: 0.4, delay: 1.9 }
+                    }}
+                  >
+                    <img className="img-fluid w-100" src={accommodation3} alt="Scuba Point Special dives in Tenerife" />
+                    <div className="sparkle"></div>
+                    <h2 className="text-center pt-4">Hostel pack 3</h2>
+                    <p className="text-center">Includes 7 nights of accommodation in the <a href="https://www.endlesssummertenerife.com/">Endless Summer hostel</a>  with breakfast included + Try Dive + Snorkelling Tour + Pick up/Drop Off</p>
+
+                    <h4 className="text-center">€ 369.00</h4>
+                    <Link className="btn btn-outline-dark btn-lg mx-auto w-75 d-block mb-3" to="/contact">BOOK&nbsp;NOW</Link>
+                  </motion.div>
+                  <motion.div className="col-sm-6 col-lg-6 mb-4 p-3"
+                    initial={{ opacity: 0 }}
+                    animate={{
+                      y: 20,
+                      opacity: 1,
+                      position: "relative",
+                      transition: { duration: 0.4, delay: 1.9 }
+                    }}
+                  >
+                    <img className="img-fluid w-100" src={accommodation4} alt="Scuba Point Special dives in Tenerife" />
+                    <div className="sparkle"></div>
+                    <h2 className="text-center pt-4">Hostel pack 4</h2>
+                    <p className="text-center">Includes 3 nights of accommodation in the <a href="https://www.endlesssummertenerife.com/">Endless Summer hostel</a>  with breakfast included + Open Water Dive Course + Pick up/Drop Off</p>
+
+                    <h4 className="text-center">€ 459.00</h4>
                     <Link className="btn btn-outline-dark btn-lg mx-auto w-75 d-block mb-3" to="/contact">BOOK&nbsp;NOW</Link>
                   </motion.div>
                 </Row>
