@@ -24,7 +24,7 @@ function Gallery() {
        <input type="text" name="name" className="form-control" placeholder="NAME*" required />
       </div>
       <div className="col mb-3">
-       <input type="text" name="telephone" className="form-control" placeholder="TELEPHONE*" required />
+       <input type="text" name="telephone" className="form-control" placeholder="TELEPHONE (INC COUNTRY!)*" required />
       </div>
       <div className="col mb-3">
        <input type="email" name="email" className="form-control" placeholder="EMAIL*" required />

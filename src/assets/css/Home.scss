@@ -3,7 +3,7 @@
 .home {
     @include home;
     .lava {
-        background: url('./../img/lava.png');
+        // background: url('./../img/lava.png');
         left: 64.2%;
         top: -0.3%;
         height: 5%;
@@ -26,7 +26,7 @@
         bottom: 0;
     }
     .sun_fire {
-        background: url('./../img/sun_fire.png');
+        // background: url('./../img/sun_fire.png');
         left: 82.2%;
         top: 1.9%;
         height: 8%;
@@ -36,7 +36,7 @@
         @include animated_div_duplicate_properties;
     }
     .sun_face {
-        background: url('./../img/sun_face.png');
+        // background: url('./../img/sun_face.png');
         left: 84.9%;
         top: 3.9%;
         height: 8%;
@@ -44,7 +44,7 @@
         @include animated_div_duplicate_properties;
     }
     .ferry {
-        background: url('./../img/ferry.png');
+        // background: url('./../img/ferry.png');
         left: 4.9%;
         top: 8.7%;
         height: 4%;
@@ -53,7 +53,7 @@
         @include animated_div_duplicate_properties;
     }
     .boat {
-        background: url('./../img/boat.png');
+        // background: url('./../img/boat.png');
         left: 14.9%;
         top: 6.2%;
         height: 33%;
@@ -62,7 +62,7 @@
         animation: MoveBoat 2s linear infinite;
         @include animated_div_duplicate_properties;
         .teacher_arm {
-            background: url('./../img/teacher_arm.png');
+            // background: url('./../img/teacher_arm.png');
             left: 53.15%;
             top: 7.56%;
             height: 10%;
@@ -72,7 +72,7 @@
             @include animated_div_duplicate_properties;
         }
         .gonza_arm {
-            background: url('./../img/gonza_arm.png');
+            // background: url('./../img/gonza_arm.png');
             left: 80.62%;
             top: 3.56%;
             height: 12%;
@@ -83,7 +83,7 @@
         }
     }
     .diver_arm {
-        background: url('./../img/diver_arm.png');
+        // background: url('./../img/diver_arm.png');
         left: 4.95%;
         top: 12.56%;
         height: 5%;
@@ -93,7 +93,7 @@
         @include animated_div_duplicate_properties;
     }
     .jellyfish {
-        background: url('./../img/jellyfish.png');
+        // background: url('./../img/jellyfish.png');
         left: 37%;
         top: 21.7%;
         height: 33%;
@@ -102,7 +102,7 @@
         @include animated_div_duplicate_properties;
     }
     .zebra_fish {
-        background: url('./../img/zebra_fish.png');
+        // background: url('./../img/zebra_fish.png');
         left: 1.9%;
         top: 27.7%;
         height: 4%;
@@ -111,7 +111,7 @@
         @include animated_div_duplicate_properties;
     }
     .gold_fish {
-        background: url('./../img/gold_fish.png');
+        // background: url('./../img/gold_fish.png');
         left: 21.9%;
         top: 22.7%;
         height: 3%;
@@ -120,7 +120,7 @@
         @include animated_div_duplicate_properties;
     }
     .blue_fish {
-        background: url('./../img/blue_fish.png');
+        // background: url('./../img/blue_fish.png');
         left: 21.9%;
         top: 35.7%;
         height: 3%;
@@ -129,7 +129,7 @@
         @include animated_div_duplicate_properties;
     }
     .diver {
-        background: url('./../img/diver.png');
+        // background: url('./../img/diver.png');
         left: 110%;
         top: 21.7%;
         height: 17%;
@@ -138,7 +138,7 @@
         @include animated_div_duplicate_properties;
     }
     .little_fish {
-        background: url('./../img/little_fish.png');
+        // background: url('./../img/little_fish.png');
         left: -3%;
         top: 22.7%;
         height: 1.9%;
@@ -147,7 +147,7 @@
         @include animated_div_duplicate_properties;
     }
     .prawn {
-        background: url('./../img/prawn.png');
+        // background: url('./../img/prawn.png');
         left: 98.9%;
         top: 24.7%;
         height: 1.6%;
@@ -156,7 +156,7 @@
         @include animated_div_duplicate_properties;
     }
     .barra1 {
-        background: url('./../img/barra1.png');
+        // background: url('./../img/barra1.png');
         left: -12%;
         top: 35%;
         height: 3.6%;
@@ -165,7 +165,7 @@
         @include animated_div_duplicate_properties;
     }
     .barra2 {
-        background: url('./../img/barra2.png');
+        // background: url('./../img/barra2.png');
         left: -12%;
         top: 40%;
         height: 3.6%;
@@ -174,7 +174,7 @@
         @include animated_div_duplicate_properties;
     }
     .barra3 {
-        background: url('./../img/barra3.png');
+        // background: url('./../img/barra3.png');
         left: -12%;
         top: 45%;
         height: 3.9%;
@@ -183,7 +183,7 @@
         @include animated_div_duplicate_properties;
     }
     .barra4 {
-        background: url('./../img/barra4.png');
+        // background: url('./../img/barra4.png');
         left: -12%;
         top: 50%;
         height: 3.6%;
@@ -192,7 +192,7 @@
         @include animated_div_duplicate_properties;
     }
     .barra5 {
-        background: url('./../img/barra5.png');
+        // background: url('./../img/barra5.png');
         left: -12%;
         top: 55%;
         height: 3.6%;
@@ -201,7 +201,7 @@
         @include animated_div_duplicate_properties;
     }
     .barra5 {
-        background: url('./../img/barra5.png');
+        // background: url('./../img/barra5.png');
         left: -12%;
         top: 55%;
         height: 3.6%;
@@ -210,7 +210,7 @@
         @include animated_div_duplicate_properties;
     }
     .barra6 {
-        background: url('./../img/barra6.png');
+        // background: url('./../img/barra6.png');
         left: -12%;
         top: 60%;
         height: 3.6%;
@@ -219,7 +219,7 @@
         @include animated_div_duplicate_properties;
     }
     .turtle {
-        background: url('./../img/turtle.png');
+        // background: url('./../img/turtle.png');
         left: -24%;
         top: 37%;
         height: 11.6%;
@@ -228,7 +228,7 @@
         @include animated_div_duplicate_properties;
     }
     .ray {
-        background: url('./../img/ray.png');
+        // background: url('./../img/ray.png');
         left: 124%;
         top: 37%;
         height: 14.6%;
@@ -237,7 +237,7 @@
         @include animated_div_duplicate_properties;
     }
     .whale {
-        background: url('./../img/whale.png');
+        // background: url('./../img/whale.png');
         left: 154%;
         top: 50%;
         height: 14%;
@@ -246,7 +246,7 @@
         @include animated_div_duplicate_properties;
     }
     .cliff_right {
-        background: url('./../img/cliff_right.png');
+        // background: url('./../img/cliff_right.png');
         left: 73.5%;
         top: 16.1%;
         height: 74%;
@@ -254,7 +254,7 @@
         @include animated_div_duplicate_properties;
     }
     .cliff_left {
-        background: url('./../img/cliff_left.png');
+        // background: url('./../img/cliff_left.png');
         left: 0%;
         top: 37%;
         height: 74%;
@@ -262,7 +262,7 @@
         @include animated_div_duplicate_properties;
     }
     .bask {
-        background: url('./../img/bask.png');
+        // background: url('./../img/bask.png');
         left: 54%;
         top: 78%;
         height: 14%;
@@ -271,7 +271,7 @@
         @include animated_div_duplicate_properties;
     }
     .monkey_arm_1 {
-        background: url('./../img/monkey_arm_1.png');
+        // background: url('./../img/monkey_arm_1.png');
         left: 47.5%;
         top: 87.5%;
         height: 14%;
@@ -281,7 +281,7 @@
         @include animated_div_duplicate_properties;
     }
     .monkey_arm_2 {
-        background: url('./../img/monkey_arm_2.png');
+        // background: url('./../img/monkey_arm_2.png');
         left: 46.5%;
         top: 87%;
         height: 14%;
@@ -304,7 +304,7 @@
         }
     }
     .eel {
-        background: url('./../img/eel.png');
+        // background: url('./../img/eel.png');
         left: 3%;
         top: 61.7%;
         height: 14%;
@@ -312,7 +312,7 @@
         animation: eel 4s alternate infinite;
         @include animated_div_duplicate_properties;
         .eel_mouth {
-            background: url('./../img/eel_mouth.png');
+            // background: url('./../img/eel_mouth.png');
             left: 87%;
             top: 27.5%;
             height: 14%;
@@ -331,7 +331,7 @@
         animation: dolphin_contain 15s linear infinite;
         @include animated_div_duplicate_properties;
         .dolphin {
-            background: url('./../img/dolphin.png') 0 0 no-repeat;
+            // background: url('./../img/dolphin.png') 0 0 no-repeat;
             left: 0%;
             top: 0%;
             height: 100%;

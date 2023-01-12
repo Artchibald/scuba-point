@@ -10,176 +10,176 @@ import team2 from './../img/team2.png';
 import team3 from './../img/team3.png';
 function Contact() {
 
- return (
-  <motion.div
-   className="wrapper pb-5"
-   initial={{ width: "0%" }}
-   animate={{ width: "100%" }}
-   exit={{ transform: "translate(100%, 0)", transition: { duration: 0.5 } }}
-  >
-   <Container className="mb-5 pb-5">
-    <Row>
-     <div className='col-xl-5 mb-5'>
-      <motion.h1
-       className='col-xl-12'
-       initial={{ opacity: 0 }}
-       animate={{
-        y: 20,
-        opacity: 1,
-        position: "relative",
-        transition: { duration: 1.5, delay: 0.5 }
-       }}
-      > <span className="h1">CONTACT <br />SCUBa
-        <motion.span
-         initial={{ opacity: 0 }}
-         animate={{
-
-          opacity: 1,
-          position: "relative",
-          transition: { duration: 2, delay: 1 }
-         }}
-        >&nbsp;point </motion.span>
-       </span>
-      </motion.h1>
-      <motion.p
-       className="col-xl-8 special_p"
-       initial={{ opacity: 0 }}
-       animate={{
-        y: 20,
-        opacity: 1,
-        position: "relative",
-        transition: { duration: 0.8, delay: 0.2 }
-       }}
-      >
-       WE ARE BASED IN LOS CRISTIANOS, SOUTH TENERIFE.
-      </motion.p>
-      <motion.p
-       className="col-xl-8 mb-5"
-       initial={{ opacity: 0 }}
-       animate={{
-        y: 20,
-        opacity: 1,
-        position: "relative",
-        transition: { duration: 0.8, delay: 0.2 }
-       }}
-      >
-       You can get in touch using the mobile telephone numbers attached, we use  Whatsapp too. You can also use the button to send us a message by email if you fish.
-      </motion.p>
-
-      <motion.div
-       className='col-12 col-xl-7'
-       initial={{ opacity: 0 }}
-       animate={{
-        y: -20,
-        opacity: 1,
-        position: "relative",
-        transition: { duration: 0.5, delay: 0.3 }
-       }}
-      >
-       <br />
-       <BookingsModal />
-      </motion.div>
-
-     </div>
-     <div className='col-xl-7'>
-      <div className='col-xl-12'>
-       <Container>
+  return (
+    <motion.div
+      className="wrapper"
+      initial={{ width: "0%" }}
+      animate={{ width: "100%" }}
+      exit={{ transform: "translate(100%, 0)", transition: { duration: 0.5 } }}
+    >
+      <Container className="mb-5 pb-5">
         <Row>
-         <motion.div
-          className='col-5 col-sm-3'
-          initial={{ opacity: 0 }}
-          animate={{
-           y: -10,
-           opacity: 1,
-           position: "relative",
-           transition: { duration: 0.6, delay: 0.3 }
-          }}
-         >
-          <img src={team2} className='w-100 img-fluid mb-5' alt="Gonza, instructor contact number" />
-         </motion.div>
-         <div className='col-7 col-sm-9'>
-          <motion.h2
-           className='col-xl-12'
-           initial={{ opacity: 0 }}
-           animate={{
-            y: 40,
-            opacity: 1,
-            position: "relative",
-            transition: { duration: 0.7, delay: 0.6 }
-           }}
-          >GONZA<br />
-           <span> <img width="30px" className="mr-2" src={whatsapp} alt="Scuba Point Whatsapp" />
-            &nbsp;+34 633 04 48 85 </span>
-          </motion.h2></div>
-        </Row></Container>
-      </div>
+          <div className='col-xl-5 mb-5'>
+            <motion.h1
+              className='col-xl-12'
+              initial={{ opacity: 0 }}
+              animate={{
+                y: 20,
+                opacity: 1,
+                position: "relative",
+                transition: { duration: 1.5, delay: 0.5 }
+              }}
+            > <span className="h1">CONTACT <br />SCUBa
+                <motion.span
+                  initial={{ opacity: 0 }}
+                  animate={{
 
-      <div
-       className='col-xl-12 mb-5'
-      >
-       <Container><Row>
-        <motion.div className='col-5 col-sm-3'
-         initial={{ opacity: 0 }}
-         animate={{
-          y: -10,
-          opacity: 1,
-          position: "relative",
-          transition: { duration: 0.6, delay: 0.9 }
-         }}
-        ><img src={team1} className='w-100 img-fluid' alt="Gonza, instructor contact number" />
-        </motion.div>
-        <div className='col-7 col-sm-9'>
-         <motion.h2
-          className='col-xl-12'
-          initial={{ opacity: 0 }}
-          animate={{
-           y: 40,
-           opacity: 1,
-           position: "relative",
-           transition: { duration: 0.6, delay: 0.9 }
-          }}
-         >MARCOS<br />
-          <span><img width="30px" className="mr-2" src={whatsapp} alt="Scuba Point Whatsapp" />
-           &nbsp;+34 633 04 48 85 </span>
-         </motion.h2></div>
-       </Row></Container>
-      </div>
+                    opacity: 1,
+                    position: "relative",
+                    transition: { duration: 2, delay: 1 }
+                  }}
+                >&nbsp;point </motion.span>
+              </span>
+            </motion.h1>
+            <motion.p
+              className="col-xl-8 special_p"
+              initial={{ opacity: 0 }}
+              animate={{
+                y: 20,
+                opacity: 1,
+                position: "relative",
+                transition: { duration: 0.8, delay: 0.2 }
+              }}
+            >
+              WE ARE BASED IN LOS CRISTIANOS, SOUTH TENERIFE.
+            </motion.p>
+            <motion.p
+              className="col-xl-8 mb-5"
+              initial={{ opacity: 0 }}
+              animate={{
+                y: 20,
+                opacity: 1,
+                position: "relative",
+                transition: { duration: 0.8, delay: 0.2 }
+              }}
+            >
+              You can get in touch using the mobile telephone numbers attached, we use  Whatsapp too. You can also use the button to send us a message by email if you fish.
+            </motion.p>
 
-      <div
-       className='col-xl-12'
-      >
-       <Container><Row>
-        <motion.div className='col-5 col-sm-3'
-         initial={{ opacity: 0 }}
-         animate={{
-          y: -10,
-          opacity: 1,
-          position: "relative",
-          transition: { duration: 0.6, delay: 1.2 }
-         }}
-        ><img src={team3} className='w-100 img-fluid' alt="Gonza, instructor contact number" />
-        </motion.div>
-        <div className='col-7 col-sm-9'>
-         <motion.h2
-          className='col-xl-12'
-          initial={{ opacity: 0 }}
-          animate={{
-           y: 40,
-           opacity: 1,
-           position: "relative",
-           transition: { duration: 0.6, delay: 1.2 }
-          }}
-         >ELIANA<br />
-          <span><img width="30px" className="mr-2" src={whatsapp} alt="Scuba Point Whatsapp" />
-           &nbsp;+34 633 04 48 85 </span>
-         </motion.h2></div>
-       </Row></Container>
-      </div>
-     </div>
-    </Row>
-   </Container>
-  </motion.div >
- )
+            <motion.div
+              className='col-12 col-xl-7'
+              initial={{ opacity: 0 }}
+              animate={{
+                y: -20,
+                opacity: 1,
+                position: "relative",
+                transition: { duration: 0.5, delay: 0.3 }
+              }}
+            >
+              <br />
+              <BookingsModal />
+            </motion.div>
+
+          </div>
+          <div className='col-xl-7'>
+            <div className='col-xl-12'>
+              <Container>
+                <Row>
+                  <motion.div
+                    className='col-5 col-sm-3'
+                    initial={{ opacity: 0 }}
+                    animate={{
+                      y: -10,
+                      opacity: 1,
+                      position: "relative",
+                      transition: { duration: 0.6, delay: 0.3 }
+                    }}
+                  >
+                    <img src={team2} className='w-100 img-fluid mb-5' alt="Gonza, instructor contact number" />
+                  </motion.div>
+                  <div className='col-7 col-sm-9'>
+                    <motion.h2
+                      className='col-xl-12'
+                      initial={{ opacity: 0 }}
+                      animate={{
+                        y: 40,
+                        opacity: 1,
+                        position: "relative",
+                        transition: { duration: 0.7, delay: 0.6 }
+                      }}
+                    >GONZA<br />
+                      <span> <img width="30px" className="mr-2" src={whatsapp} alt="Scuba Point Whatsapp" />
+                        &nbsp;+34 633 04 48 85 </span>
+                    </motion.h2></div>
+                </Row></Container>
+            </div>
+
+            <div
+              className='col-xl-12 mb-5'
+            >
+              <Container><Row>
+                <motion.div className='col-5 col-sm-3'
+                  initial={{ opacity: 0 }}
+                  animate={{
+                    y: -10,
+                    opacity: 1,
+                    position: "relative",
+                    transition: { duration: 0.6, delay: 0.9 }
+                  }}
+                ><img src={team1} className='w-100 img-fluid' alt="Gonza, instructor contact number" />
+                </motion.div>
+                <div className='col-7 col-sm-9'>
+                  <motion.h2
+                    className='col-xl-12'
+                    initial={{ opacity: 0 }}
+                    animate={{
+                      y: 40,
+                      opacity: 1,
+                      position: "relative",
+                      transition: { duration: 0.6, delay: 0.9 }
+                    }}
+                  >MARCOS<br />
+                    <span><img width="30px" className="mr-2" src={whatsapp} alt="Scuba Point Whatsapp" />
+                      &nbsp;+34 633 04 48 85 </span>
+                  </motion.h2></div>
+              </Row></Container>
+            </div>
+
+            <div
+              className='col-xl-12'
+            >
+              <Container><Row>
+                <motion.div className='col-5 col-sm-3'
+                  initial={{ opacity: 0 }}
+                  animate={{
+                    y: -10,
+                    opacity: 1,
+                    position: "relative",
+                    transition: { duration: 0.6, delay: 1.2 }
+                  }}
+                ><img src={team3} className='w-100 img-fluid' alt="Gonza, instructor contact number" />
+                </motion.div>
+                <div className='col-7 col-sm-9'>
+                  <motion.h2
+                    className='col-xl-12'
+                    initial={{ opacity: 0 }}
+                    animate={{
+                      y: 40,
+                      opacity: 1,
+                      position: "relative",
+                      transition: { duration: 0.6, delay: 1.2 }
+                    }}
+                  >ELIANA<br />
+                    <span><img width="30px" className="mr-2" src={whatsapp} alt="Scuba Point Whatsapp" />
+                      &nbsp;+34 633 04 48 85 </span>
+                  </motion.h2></div>
+              </Row></Container>
+            </div>
+          </div>
+        </Row>
+      </Container>
+    </motion.div >
+  )
 }
 
 export default Contact
