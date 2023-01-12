@@ -140,12 +140,12 @@ function Contact() {
                     }}
                   >MARCOS<br />
                     <span><img width="30px" className="mr-2" src={whatsapp} alt="Scuba Point Whatsapp" />
-                      &nbsp;+34 633 04 48 85 </span>
+                      &nbsp;+34 622 32 98 96 </span>
                   </motion.h2></div>
               </Row></Container>
             </div>
 
-            <div
+            {/* <div
               className='col-xl-12'
             >
               <Container><Row>
@@ -174,7 +174,7 @@ function Contact() {
                       &nbsp;+34 633 04 48 85 </span>
                   </motion.h2></div>
               </Row></Container>
-            </div>
+            </div> */}
           </div>
         </Row>
       </Container>
