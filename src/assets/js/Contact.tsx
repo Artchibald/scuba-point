@@ -7,7 +7,7 @@ import BookingsModal from "./BookingsModal"
 import whatsapp from './../img/icons/whatsapp.svg';
 import team1 from './../img/team1.png';
 import team2 from './../img/team2.png';
-import team3 from './../img/team3.png';
+// import team3 from './../img/team3.png';
 function Contact() {
 
   return (
