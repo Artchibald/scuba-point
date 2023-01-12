@@ -165,7 +165,7 @@ function Packages() {
                   >
                     <img className="img-fluid w-100" src={trial} alt="Scuba Point Packages" />
                     <div className="sparkle"></div>
-                    <h2 className="text-center pt-4">TRIAL<br />DIVE</h2>
+                    <h2 className="text-center pt-4">TRY<br />DIVE</h2>
                     <p className="text-center">Try scuba diving for the first time and see if it is your type of cake.</p>
                     <span className="btn btn-outline-dark btn-lg mx-auto w-75 d-block mb-3" onClick={handlePackage2Show}>READ&nbsp;MORE</span>
                     <Modal

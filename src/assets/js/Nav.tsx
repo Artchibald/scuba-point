@@ -1,6 +1,6 @@
 import React from 'react'
-
 import { Link } from "react-router-dom";
+import BookingsModalNav from './BookingsModalNav';
 import "./../css/Nav.scss"
 import LogoLight from "./../img/scuba-point.svg";
 function showMenu() {
@@ -61,7 +61,13 @@ function Nav() {
         <Link to="/">
           <img src={LogoLight} alt="Scuba Point Logo" className="logo" />
         </Link>
-
+        <div
+          className='col-12 col-xl-12 mb-2'
+        >
+          <br />
+          <div className="nav_booking">
+            <BookingsModalNav /></div>
+        </div>
       </header>
 
     </>
